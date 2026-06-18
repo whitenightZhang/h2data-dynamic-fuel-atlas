@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>H2DATA Dynamic Fuel Atlas</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">H2</div>
+          <div>
+            <div class="brand-title">H2DATA</div>
+            <div class="brand-subtitle">8760-hour dynamic fuel atlas</div>
+          </div>
+        </div>
+
+        <div class="toolbar" aria-label="Atlas controls">
+          <div class="control-block product-control">
+            <span class="control-label">Product</span>
+            <div class="segmented" id="productTabs"></div>
+          </div>
+
+          <div class="control-block year-control">
+            <span class="control-label">Year</span>
+            <div class="year-stepper">
+              <button class="icon-button" id="prevYear" aria-label="Previous year">
+                <span class="material-symbols-rounded">chevron_left</span>
+              </button>
+              <output id="yearValue">2035</output>
+              <button class="icon-button" id="nextYear" aria-label="Next year">
+                <span class="material-symbols-rounded">chevron_right</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="control-block">
+            <span class="control-label">Region</span>
+            <select id="regionSelect">
+              <option value="all">All regions</option>
+            </select>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="map-grid" aria-label="Synchronized maps">
+          <article class="map-panel">
+            <div class="panel-head">
+              <div>
+                <h1>8760-hour dynamic model cost</h1>
+                <p id="costSubtitle">Levelized cost</p>
+              </div>
+              <label class="toggle">
+                <span>Log scale</span>
+                <input type="checkbox" id="logScale" />
+              </label>
+            </div>
+            <div class="map-frame">
+              <canvas id="costMap"></canvas>
+              <div class="map-status" id="costStatus">Loading map data</div>
+            </div>
+            <div class="legend" id="costLegend"></div>
+          </article>
+
+          <article class="map-panel">
+            <div class="panel-head">
+              <div>
+                <h1>Static-benchmark underestimation</h1>
+                <p id="biasSubtitle">Difference between static benchmark and 8760-hour model</p>
+              </div>
+              <div class="segmented compact" id="biasMode">
+                <button data-mode="percent" class="active">%</button>
+                <button data-mode="absolute">USD</button>
+              </div>
+            </div>
+            <div class="map-frame">
+              <canvas id="biasMap"></canvas>
+              <div class="map-status" id="biasStatus">Loading map data</div>
+            </div>
+            <div class="legend" id="biasLegend"></div>
+          </article>
+        </section>
+
+        <section class="detail-drawer" aria-live="polite">
+          <div class="selection-summary">
+            <div>
+              <div class="eyebrow">Selected grid cell</div>
+              <h2 id="selectedTitle">No grid selected</h2>
+              <p id="selectedMeta">Click either map to inspect a node.</p>
+            </div>
+            <button class="secondary-button" id="selectLowest">
+              <span class="material-symbols-rounded">my_location</span>
+              <span>Lowest interpretable node</span>
+            </button>
+          </div>
+
+          <div class="metric-strip" id="metricStrip"></div>
+        </section>
+      </main>
+
+      <footer>
+        <span>Data files: 8760-hour dynamic model outputs and static-reference underestimation extracts.</span>
+      </footer>
+    </div>
+
+    <script src="./app.js?v=cost-bias-only-20260618"></script>
+  </body>
+</html>
