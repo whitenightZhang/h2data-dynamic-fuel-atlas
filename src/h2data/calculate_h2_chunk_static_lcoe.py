@@ -12,9 +12,9 @@ logger = logging.getLogger(__name__)
 CHECKPOINT_INTERVAL = 100
 
 SCENARIOS = {
-    "RegionRE_2030": {
+    "2030": {
         "cost_year": "2030ATB",
-        "output_tag": "RegionRE_2030_StaticLCOE",
+        "output_tag": "2030",
         "battery_energy_cost": 200,
         "battery_storage_cost": 200,
         "electrolyzer_cost_AE": 430,
@@ -22,9 +22,9 @@ SCENARIOS = {
         "hydrogen_storage_cost": 1750,
         "default_electrolyzer": "AE",
     },
-    "RegionRE_LowAE": {
+    "2035": {
         "cost_year": "2035ATB",
-        "output_tag": "RegionRE_LowAE_StaticLCOE",
+        "output_tag": "2035",
         "battery_energy_cost": 100,
         "battery_storage_cost": 100,
         "electrolyzer_cost_AE": 250,
@@ -32,19 +32,9 @@ SCENARIOS = {
         "hydrogen_storage_cost": 1000,
         "default_electrolyzer": "AE",
     },
-    "RegionRE_LowAE_2040": {
-        "cost_year": "2040ATB",
-        "output_tag": "RegionRE_LowAE_2040_StaticLCOE",
-        "battery_energy_cost": 100,
-        "battery_storage_cost": 100,
-        "electrolyzer_cost_AE": 250,
-        "electrolyzer_cost_PEM": 500,
-        "hydrogen_storage_cost": 1000,
-        "default_electrolyzer": "AE",
-    },
-    "RegionRE_LowAE_2050": {
+    "2050": {
         "cost_year": "2050ATB",
-        "output_tag": "RegionRE_LowAE_2050_StaticLCOE",
+        "output_tag": "2050",
         "battery_energy_cost": 50,
         "battery_storage_cost": 50,
         "electrolyzer_cost_AE": 250,
@@ -363,11 +353,20 @@ def parse_chunks(chunks_text):
     return list(dict.fromkeys(chunks))
 
 
+def normalize_scenario_name(scenario_name):
+    value = str(scenario_name).strip()
+    if value not in SCENARIOS:
+        valid = ", ".join(sorted(SCENARIOS))
+        raise ValueError(f"Unknown scenario '{scenario_name}'. Use one of: {valid}.")
+    return value
+
+
 def calculate_chunk(config, chunk_idx):
     import pandas as pd
     import xarray as xr
 
-    scenario = SCENARIOS[config["scenario"]]
+    scenario_name = normalize_scenario_name(config["scenario"])
+    scenario = SCENARIOS[scenario_name]
     electrolyzer = config["electrolyzer"]
     if electrolyzer == "auto":
         electrolyzer = scenario["default_electrolyzer"]
@@ -413,7 +412,7 @@ def calculate_chunk(config, chunk_idx):
     logger.info(
         "Chunk %s: static LCOE calculation: scenario=%s, cost_year=%s, re_source=%s, electrolyzer=%s",
         chunk_idx,
-        config["scenario"],
+        scenario_name,
         scenario["cost_year"],
         config["re_source"],
         electrolyzer,
@@ -516,9 +515,9 @@ def build_parser():
     parser.add_argument("--output-dir", type=str, default="/path/to/output", help="输出结果根目录")
     parser.add_argument(
         "--scenario",
-        choices=sorted(SCENARIOS),
-        default="RegionRE_LowAE_2050",
-        help="成本和输出命名情景",
+        default="2050",
+        metavar="{2030,2035,2050}",
+        help="Cost scenario and default output tag.",
     )
     parser.add_argument(
         "--regional-cost-csv",
@@ -565,6 +564,10 @@ def main():
 
     parser = build_parser()
     args = parser.parse_args()
+    try:
+        args.scenario = normalize_scenario_name(args.scenario)
+    except ValueError as exc:
+        parser.error(str(exc))
 
     if args.chunks:
         chunks = parse_chunks(args.chunks)

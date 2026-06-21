@@ -13,7 +13,11 @@ REPO_DIR = Path(__file__).resolve().parents[1]
 DEFAULT_DATA_DIR = REPO_DIR / "docs" / "data"
 
 YEARS = [2030, 2035, 2050]
-SCENARIO_TO_YEAR = {"2030": 2030, "LowAE": 2035, "LowAE_2050": 2050}
+SCENARIO_TO_YEAR = {
+    "2030": 2030,
+    "2035": 2035,
+    "2050": 2050,
+}
 
 POINT_SCHEMA = [
     "lat",

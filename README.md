@@ -58,7 +58,7 @@ python -m h2data.calculate_h2_chunk_static_lcoe `
   --input-dir D:/path/to/input_data `
   --output-dir D:/path/to/static_h2_output `
   --chunks 0-23 `
-  --scenario RegionRE_LowAE_2050 `
+  --scenario 2050 `
   --workers 4
 ```
 
@@ -114,6 +114,17 @@ The web data schema is:
 ```text
 lat, lon, cost_8760, absolute_underestimate, underestimation_pct, region
 ```
+
+## Scenario Names
+
+Use year-based scenario names in commands and output files:
+
+```text
+2030, 2035, 2050
+```
+
+For example, `--scenario 2050` writes files such as
+`hydrogen_results_0_2050.csv`.
 
 ## Data Policy
 

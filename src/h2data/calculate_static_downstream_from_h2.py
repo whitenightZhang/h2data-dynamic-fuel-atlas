@@ -41,12 +41,11 @@ def parse_chunks(chunks_text):
 
 
 def h2_scenario_family(scenario):
+    scenario = str(scenario)
     if "2050" in scenario:
         return "2050"
-    if "2040" in scenario:
-        return "2040"
-    if "LowAE" in scenario:
-        return "LowAE"
+    if "2035" in scenario:
+        return "2035"
     return "2030"
 
 
@@ -78,7 +77,7 @@ def ammonia_params(family):
     }
     if family == "2050":
         params["synthesis_cost"] = 5000
-    elif family in {"LowAE", "2040"}:
+    elif family == "2035":
         params["synthesis_cost"] = 6500
     else:
         params["synthesis_cost"] = 8000
@@ -115,7 +114,7 @@ def methanol_params(family):
             "dac_heat_per_kg": 1.0,
             "sorbent_cost": 0.009,
         })
-    elif family in {"LowAE", "2040"}:
+    elif family == "2035":
         params.update({
             "synthesis_cost": 5700,
             "heat_pump_cost": 950,
@@ -167,18 +166,7 @@ def ftl_params(family):
             "dac_heat_per_kg": 1.0,
             "sorbent_cost": 0.009,
         })
-    elif family == "2040":
-        params.update({
-            "synthesis_cost": 15400,
-            "hydrogen_ratio": 0.49,
-            "co2_ratio": 3.6,
-            "heat_pump_cost": 950,
-            "dac_cost": 4000,
-            "dac_elec_per_kg": 0.25,
-            "dac_heat_per_kg": 1.0,
-            "sorbent_cost": 0.012,
-        })
-    elif family == "LowAE":
+    elif family == "2035":
         params.update({
             "synthesis_cost": 9400,
             "hydrogen_ratio": 0.49,

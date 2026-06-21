@@ -14,7 +14,7 @@ python -m h2data.calculate_h2_chunk_static_lcoe `
   --input-dir D:/path/to/input_data `
   --output-dir D:/path/to/static_h2_output `
   --chunks 0-23 `
-  --scenario RegionRE_LowAE_2050 `
+  --scenario 2050 `
   --workers 4
 ```
 
