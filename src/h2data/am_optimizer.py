@@ -270,7 +270,7 @@ def optimize_ammonia_system(
         # 需满足合成氨生产所需的氢气（按氢消耗比）加上充氢量
 
         # 氨储存平衡
-        model.addConstr(ammonia_storage_balance[t] == (ammonia_storage_balance[t-1] if t>0 else ammonia_storage_charge[0])
+        model.addConstr(ammonia_storage_balance[t] == (ammonia_storage_balance[t-1] if t>0 else 0)
                                   + ammonia_storage_charge[t] - ammonia_storage_discharge[t],
                         name=f"ammonia_storage_balance_{t}")
         model.addConstr(ammonia_storage_balance[t] <= ammonia_storage_capacity,
