@@ -1,11 +1,5 @@
-# Data Inputs
+# Data locations
 
-This folder is reserved for small example inputs or pointers to raw data.
+Current processed costs, potential weights, classifications and representative solutions are in ../reproducibility/paper. Figure/table maps and a data dictionary are in ../reproducibility. The live website JSONs are in ../docs/data and are generated from those paired costs.
 
-Large raw data and intermediate optimization outputs are intentionally not
-tracked in git. For a local reproduction run, keep raw inputs outside the
-repository or under an ignored folder such as `raw_data/`, then pass their paths
-to the command-line scripts.
-
-The GitHub Pages atlas uses compact processed extracts committed under
-`docs/data/`.
+Original global raw datasets and third-party basemap layers are not included. See ../reproducibility/docs/data_sources.bib and the original processing notebook code for citations and processing details.

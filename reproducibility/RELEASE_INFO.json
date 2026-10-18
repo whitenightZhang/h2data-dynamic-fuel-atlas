@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "title": "Annual-average assessments overstate off-grid renewable fuel competitiveness",
+  "new_model_solves": 0,
+  "original_files_changed": false,
+  "figure_source_maps": 22,
+  "table_source_maps": 6,
+  "archived_representative_cases": 54,
+  "archived_weather_cases": 9,
+  "publication_scope": "code and processed data; manuscript/SI/raw geospatial products excluded",
+  "doi_status": "not requested by author",
+  "checks": "source hashes; paper statistics; stored case; file maps; credential-pattern check"
+}

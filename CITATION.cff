@@ -1,8 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated article."
-title: "H2DATA: 8760-hour Dynamic Fuel Atlas for Renewable Hydrogen-Derived Fuels"
+message: "If you use this software or the companion processed data, cite this fixed version."
+title: "Annual-average assessments overstate off-grid renewable fuel competitiveness"
+type: software
 authors:
-  - name: "H2DATA authors"
-version: "0.1.0"
-date-released: "2026-06-18"
+  - family-names: Zhang
+    given-names: Qianzhi
+  - family-names: Zhang
+    given-names: Shu
+  - family-names: Gong
+    given-names: Chen Chris
+  - family-names: Chen
+    given-names: Wenying
+version: "1.0.0"
+repository-code: "https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas"
+abstract: "Companion source data, figure scripts and recorded computational workflows for the renewable-fuel assessment."
+
 license: "MIT"
+date-released: "2026-10-18"

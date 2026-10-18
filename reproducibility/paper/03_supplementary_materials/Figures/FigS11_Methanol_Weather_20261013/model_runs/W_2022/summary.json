@@ -1,0 +1,31 @@
+{
+  "site": "W",
+  "group": "Wind-cluster",
+  "latitude": 61.5,
+  "longitude": -99.75,
+  "weather_year": 2022,
+  "technology_year": 2035,
+  "solver_status": 2,
+  "runtime_s": 18.424000024795532,
+  "annual_average_cost_USD_per_t": 561.95107349852,
+  "selected_RE_source": "wind",
+  "wind_LCOE_USD_per_kWh": 0.024281125420127725,
+  "pv_LCOE_USD_per_kWh": 0.040747038278500076,
+  "annual_average_components_USD_per_year": {
+    "hydrogen": 3071.109600933165,
+    "process_electricity": 361.18174062439994,
+    "synthesis": 899.4613299277023,
+    "dac": 883.6813065956374,
+    "heat_pump": 236.07675690429517,
+    "sorbent": 168.0
+  },
+  "hourly_cost_USD_per_t": 654.5296909592395,
+  "total_methanol_kg": 10000.000799992167,
+  "constraint_violation": 1.0912316044895524e-05,
+  "bound_violation": 0.0,
+  "underestimation_percent": 14.14429608610142,
+  "wind_mean_CF": 0.5157514859647255,
+  "pv_mean_CF": 0.10649654394217092,
+  "wind_cost_USD_per_kW": 992.0,
+  "pv_cost_USD_per_kW": 362.0
+}

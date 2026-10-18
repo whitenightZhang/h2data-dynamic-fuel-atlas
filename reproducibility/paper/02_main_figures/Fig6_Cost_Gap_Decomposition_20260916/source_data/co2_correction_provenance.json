@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-15",
+  "report": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\CORRECTION_SUMMARY_CN.md",
+  "corrected_static_sources": {
+    "methanol_2030": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\methanol_2030_static_storage_boundary.csv",
+    "methanol_2035": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\methanol_2035_static_storage_boundary.csv",
+    "methanol_2050": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\methanol_2050_static_storage_boundary.csv",
+    "saf_2030": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\saf_2030_static_storage_boundary.csv",
+    "saf_2035": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\saf_2035_static_storage_boundary.csv",
+    "saf_2050": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\saf_2050_static_storage_boundary.csv"
+  },
+  "cost_weights_and_thresholds_unchanged": true
+}

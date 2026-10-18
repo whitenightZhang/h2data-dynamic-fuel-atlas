@@ -1,0 +1,9 @@
+{
+  "model_sha256": "c3b5b014c4917f12b61d31fbed35099c1e150c78a7acdc2aa792441241465d59",
+  "model_source": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\10_revision_analysis\\src\\h2data\\me_optimizer.py",
+  "capacity_factor_source": "D:\\OneDrive\\POTSED\\00 Figures\\Fig3.9_3.20_\u8fd0\u884c\u56fe\\Input\\median_points_cf_timeseries_RegionalRE_LowAE.csv",
+  "static_source": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\11_co2_boundary_correction_20260915\\corrected_static\\methanol_2035_static_storage_boundary.csv",
+  "atlas_source": "D:\\OneDrive\\POTSED\\DataOutput\\Used_output\\combined_RegionRE_LowAE_AddSteam_methanol_results.csv",
+  "operation": "Existing validated H0 solutions extracted with the original global battery-charge regularizer (0.002); no new solve or replacement of the global atlas",
+  "cost_method": "Var.Obj times Var.X grouped once; static embedded power separated from electrolyzer annual capital; normalize each case by its own annual methanol output"
+}

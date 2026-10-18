@@ -1,0 +1,96 @@
+{
+  "model_source": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\10_revision_analysis\\src\\h2data\\me_optimizer.py",
+  "model_sha256": "c3b5b014c4917f12b61d31fbed35099c1e150c78a7acdc2aa792441241465d59",
+  "model_construction_ast_identical": true,
+  "technology_year": 2035,
+  "weather_years": [
+    2021,
+    2022,
+    2023
+  ],
+  "site_source": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\02_main_figures\\Fig6_Cost_Gap_Decomposition_20260916\\source_data\\site_summary.csv",
+  "annual_average_basis": "AE 4000 h, downstream utilization 0.8, no storage-branch CO2 compressor; verified against Fig. 6's corrected 2023 costs",
+  "profiles": [
+    {
+      "site": "W",
+      "year": 2023,
+      "source": "E:\\Workspace\\average_2023_segment_1020.nc",
+      "wind_sha256": "0bfb9700715ac02bc98b332d5c13fab9d77a626fb05908ceb513a349f8ab7646",
+      "pv_sha256": "ef705cd05ba983ec8b8e89cccf2f0b57e58b79145d23039f53f81c88156191d5",
+      "timestamps_sha256": "b9d1cff4c0efae6c801ef4d86722c9b6bfc68cbcf3f7e02bb50aadb59948fcad",
+      "adjustments": "none"
+    },
+    {
+      "site": "H",
+      "year": 2023,
+      "source": "E:\\Workspace\\average_2023_segment_60.nc",
+      "wind_sha256": "ed1d042a9be4ab6524bab927ab83706e204aeb007aa2e89c6dfb5689118bf56c",
+      "pv_sha256": "a5775f335054274b96945f8300c181ddb574089a8341526467bbd4529234c808",
+      "timestamps_sha256": "b9d1cff4c0efae6c801ef4d86722c9b6bfc68cbcf3f7e02bb50aadb59948fcad",
+      "adjustments": "none"
+    },
+    {
+      "site": "S",
+      "year": 2023,
+      "source": "E:\\Workspace\\average_2023_segment_120.nc",
+      "wind_sha256": "f408cb0e5a3deb3ab25d38cc56356ffdafc4db5edd8abaf8bedfba30e7283ad3",
+      "pv_sha256": "bb5455d68bf67d864dab727d4b396b63fa3d948cb26c49c7b05c998a7a390383",
+      "timestamps_sha256": "b9d1cff4c0efae6c801ef4d86722c9b6bfc68cbcf3f7e02bb50aadb59948fcad",
+      "adjustments": "none"
+    },
+    {
+      "site": "W",
+      "year": 2021,
+      "source": "E:\\Workspace\\average_2021_segment_1020.nc",
+      "wind_sha256": "686ce933969b3c0920a74ef8f977f67197a683555c5bd79b34e22e32f3c44ec7",
+      "pv_sha256": "4f15536912a875f0fb7391eb772cce4177503df2ed46580ca96fb1d0104f260b",
+      "timestamps_sha256": "9499254bbdf54bba7dbe35b47d11c24e48dda7e454d3af07dcbcf32e9a900411",
+      "adjustments": "none"
+    },
+    {
+      "site": "H",
+      "year": 2021,
+      "source": "E:\\Workspace\\average_2021_segment_60.nc",
+      "wind_sha256": "d6620fe0bbe48b9ee07eb595592b3aff22bf5f00df183267b9007eec281a5162",
+      "pv_sha256": "77a53925d280042506b360b7f11a8621fea03a731e07ce1e311ae148999920e8",
+      "timestamps_sha256": "9499254bbdf54bba7dbe35b47d11c24e48dda7e454d3af07dcbcf32e9a900411",
+      "adjustments": "none"
+    },
+    {
+      "site": "S",
+      "year": 2021,
+      "source": "E:\\Workspace\\average_2021_segment_120.nc",
+      "wind_sha256": "60a96b6203c20981e007e3ced1d36cc73e5dc2d65b8b75023b1ee69710fad8fa",
+      "pv_sha256": "b44b5f9a8bc43392bdd133ead144b93f9b8023e5b59778100c96916dc1317991",
+      "timestamps_sha256": "9499254bbdf54bba7dbe35b47d11c24e48dda7e454d3af07dcbcf32e9a900411",
+      "adjustments": "none"
+    },
+    {
+      "site": "W",
+      "year": 2022,
+      "source": "E:\\Workspace\\average_2022_segment_1020.nc",
+      "wind_sha256": "d6fe6233c6eaa18e2b3790390185f33e3a0df0839ddd5e287f407d41dd3d8651",
+      "pv_sha256": "f238e91fe6026836a5c131d2d0e7250b6d05a16588061e0a2c83654fefe16366",
+      "timestamps_sha256": "6873dbedb00a35ab10924acfb8eb2cca695b8bd087693e66aa366a2200dba846",
+      "adjustments": "none"
+    },
+    {
+      "site": "H",
+      "year": 2022,
+      "source": "E:\\Workspace\\average_2022_segment_60.nc",
+      "wind_sha256": "6e11950d4faca0b753837b447ff96315269739e44a660f782cbc1ff6423a1746",
+      "pv_sha256": "79e1c0afce2450b67a11ff1a85d98c035f3331905449ba5ef67ca9aec9c8c543",
+      "timestamps_sha256": "6873dbedb00a35ab10924acfb8eb2cca695b8bd087693e66aa366a2200dba846",
+      "adjustments": "none"
+    },
+    {
+      "site": "S",
+      "year": 2022,
+      "source": "E:\\Workspace\\average_2022_segment_120.nc",
+      "wind_sha256": "275281806d2c756e9ee332513599330c9ddc57adaa9a1e7869f9a02af959195c",
+      "pv_sha256": "13b763e3d4b26458caa00347e51761561e4431c9e70113a896db8bf2de7755e0",
+      "timestamps_sha256": "6873dbedb00a35ab10924acfb8eb2cca695b8bd087693e66aa366a2200dba846",
+      "adjustments": "none"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+matplotlib==3.9.2
+seaborn==0.12.2
+scikit-learn==1.7.2
+geopandas==1.0.1
+shapely==2.0.6
+pyproj==3.7.0
+cartopy==0.24.1
+PyMuPDF==1.27.2.3
+gurobipy==11.0.3

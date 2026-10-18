@@ -1,0 +1,23 @@
+[
+  {
+    "site": "W",
+    "power_balance_max_abs_kW": 1.4296703047799438e-06,
+    "hydrogen_balance_min_kg_h": -2.8426423319318633e-07,
+    "battery_charge_penalty_USD_kWh": 0.002,
+    "solution_sha256": "a997faca0d31311a39f854b609edfededdaec5be669a267cdcd36a5ff0628c2c"
+  },
+  {
+    "site": "H",
+    "power_balance_max_abs_kW": 4.1078046766684175e-07,
+    "hydrogen_balance_min_kg_h": -9.347257892700078e-08,
+    "battery_charge_penalty_USD_kWh": 0.002,
+    "solution_sha256": "f65f2e923518226be5686804f01863aafb2dccc9431596eb28e7517f97f5ccee"
+  },
+  {
+    "site": "S",
+    "power_balance_max_abs_kW": 6.980104814147126e-07,
+    "hydrogen_balance_min_kg_h": -7.205743530254872e-08,
+    "battery_charge_penalty_USD_kWh": 0.002,
+    "solution_sha256": "60f3d3c62742485e1e58b5bbf7fcb0726d8ad9c2ba30be1d44a439e87eb41e8a"
+  }
+]

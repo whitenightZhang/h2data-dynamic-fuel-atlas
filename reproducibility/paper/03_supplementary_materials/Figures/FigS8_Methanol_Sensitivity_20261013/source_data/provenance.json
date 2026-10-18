@@ -1,0 +1,79 @@
+{
+  "battery_charge_penalty_USD_kWh": 0.002,
+  "cases": {
+    "Base": [
+      "param",
+      {}
+    ],
+    "HighPEM": [
+      "param",
+      {
+        "electrolyzer_cost_PEM": 650
+      }
+    ],
+    "HighBat": [
+      "param",
+      {
+        "battery_energy_cost": 200
+      }
+    ],
+    "LowBat": [
+      "param",
+      {
+        "battery_energy_cost": 50
+      }
+    ],
+    "HighFlex": [
+      "flex",
+      {
+        "Flex_am_up": 0.2,
+        "Flex_am_down": 0.4,
+        "Flex_me_up": 0.2,
+        "Flex_me_down": 0.4,
+        "Flex_ftl_up": 0.2,
+        "Flex_ftl_down": 0.4,
+        "Flex_dac_up": 0.2,
+        "Flex_dac_down": 0.4,
+        "am_min_load": 0.05,
+        "me_min_load": 0.05,
+        "ftl_min_load": 0.05,
+        "dac_min_load": 0.05
+      }
+    ],
+    "LowFlex": [
+      "flex",
+      {
+        "Flex_am_up": 0.05,
+        "Flex_am_down": 0.1,
+        "Flex_me_up": 0.02,
+        "Flex_me_down": 0.1,
+        "Flex_ftl_up": 0.02,
+        "Flex_ftl_down": 0.1,
+        "Flex_dac_up": 0.02,
+        "Flex_dac_down": 0.1,
+        "am_min_load": 0.5,
+        "me_min_load": 0.5,
+        "ftl_min_load": 0.5,
+        "dac_min_load": 0.5
+      }
+    ]
+  },
+  "capacity_factor_sha256": "e80310382c9b590dd9239656c143ea2842f5093723a782b8bb1b5c5d3188dd64",
+  "sources": {
+    "param": {
+      "notebook": "D:\\OneDrive\\POTSED\\3.2 CAPEXUnCentainty.ipynb",
+      "sha256": "d7f0a0f1d6712c5f405754483af17d9777de7e84fefbf9c4469ba7986bb21e0f",
+      "export_sha256": "0529a2b92d3d09833544ab1d13661c1ff411672288652bf2377dd6e81592d050"
+    },
+    "flex": {
+      "notebook": "D:\\OneDrive\\POTSED\\3.3 FlexUnCentainty.ipynb",
+      "sha256": "a51e7663172fcb3017541c769d0e61ced3fefe53d592600ef7d22042c8fead54",
+      "export_sha256": "1c500cf100ab5daead187e690efd1de2fb5727a294800f7858c7c44e8bd553ab"
+    }
+  },
+  "scope": "Representative sites only; original physical constraints and other coefficients retained.",
+  "calculation_directory": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\10_revision_analysis\\representative_unified_charge_20261017",
+  "baseline": "One shared Base per fuel and site, used for all five perturbations; methanol Base is exactly main Fig.6.",
+  "scenario_results_sha256": "7ddc0bb5b766f0c8d9c3c7451f9b11aa7a6e4c7d2f84ff292195545c0e02902e",
+  "historical_raw_tables": "Preserved in the before snapshot; not used for the updated figures."
+}

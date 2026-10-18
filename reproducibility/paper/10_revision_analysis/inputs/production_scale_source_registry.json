@@ -1,0 +1,22 @@
+{
+  "source_title": "Kassø e-methanol facility officially inaugurated",
+  "url": "https://europeanenergy.com/2025/05/13/kasso-e-methanol-facility-officially-inaugurated/",
+  "publisher": "European Energy",
+  "publication_date": "2025-05-13",
+  "source_locator": "Opening paragraphs, annual production capacity statement",
+  "source_product": "e-methanol",
+  "source_region": "Aabenraa, Denmark",
+  "source_quantity": 42000,
+  "source_unit": "tonnes/year",
+  "verified_use": "Independent commercial facility throughput benchmark",
+  "not_verified_use": "Not a 2035 regional/global e-methanol demand forecast",
+  "model_boundary_difference": "Source facility uses biogenic CO2; manuscript reference uses DAC and off-grid renewable supply. Only output scale could be borrowed, not configuration, costs or lifecycle claims.",
+  "candidate_scenario_multipliers": [
+    0.5,
+    1,
+    2
+  ],
+  "scenario_status": "Prospective benchmark only; not adopted as market demand and not simulated",
+  "verified_by": "Codex using primary developer announcement",
+  "verified_date": "2026-09-14"
+}

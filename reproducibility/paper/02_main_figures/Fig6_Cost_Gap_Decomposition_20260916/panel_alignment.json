@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 17,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 528.0,
+      "height_pt": 598.0
+    },
+    "panels": [
+      {
+        "id": "A",
+        "bbox_pt": [
+          62.0,
+          510.0,
+          188.0,
+          548.0
+        ]
+      },
+      {
+        "id": "A_battery_power",
+        "bbox_pt": [
+          62.0,
+          491.0,
+          188.0,
+          503.0
+        ]
+      },
+      {
+        "id": "A_battery_energy",
+        "bbox_pt": [
+          62.0,
+          473.0,
+          188.0,
+          485.0
+        ]
+      },
+      {
+        "id": "A_h2_capacity",
+        "bbox_pt": [
+          62.0,
+          455.00000000000006,
+          188.0,
+          467.0
+        ]
+      },
+      {
+        "id": "D_power",
+        "bbox_pt": [
+          62.0,
+          328.0,
+          188.0,
+          391.0
+        ]
+      },
+      {
+        "id": "D_hydrogen",
+        "bbox_pt": [
+          62.0,
+          247.0,
+          188.0,
+          301.0
+        ]
+      },
+      {
+        "id": "G",
+        "bbox_pt": [
+          62.0,
+          66.0,
+          188.0,
+          160.0
+        ]
+      },
+      {
+        "id": "B",
+        "bbox_pt": [
+          224.0,
+          510.0,
+          350.0,
+          548.0
+        ]
+      },
+      {
+        "id": "B_battery_power",
+        "bbox_pt": [
+          224.0,
+          491.0,
+          350.0,
+          503.0
+        ]
+      },
+      {
+        "id": "B_battery_energy",
+        "bbox_pt": [
+          224.0,
+          473.0,
+          350.0,
+          485.0
+        ]
+      },
+      {
+        "id": "B_h2_capacity",
+        "bbox_pt": [
+          224.0,
+          455.00000000000006,
+          350.0,
+          467.0
+        ]
+      },
+      {
+        "id": "E_power",
+        "bbox_pt": [
+          224.0,
+          328.0,
+          350.0,
+          391.0
+        ]
+      },
+      {
+        "id": "E_hydrogen",
+        "bbox_pt": [
+          224.0,
+          247.0,
+          350.0,
+          301.0
+        ]
+      },
+      {
+        "id": "H",
+        "bbox_pt": [
+          224.0,
+          66.0,
+          350.0,
+          160.0
+        ]
+      },
+      {
+        "id": "C",
+        "bbox_pt": [
+          386.0,
+          510.0,
+          512.0,
+          548.0
+        ]
+      },
+      {
+        "id": "C_battery_power",
+        "bbox_pt": [
+          386.0,
+          491.0,
+          512.0,
+          503.0
+        ]
+      },
+      {
+        "id": "C_battery_energy",
+        "bbox_pt": [
+          386.0,
+          473.0,
+          512.0,
+          485.0
+        ]
+      },
+      {
+        "id": "C_h2_capacity",
+        "bbox_pt": [
+          386.0,
+          455.00000000000006,
+          512.0,
+          467.0
+        ]
+      },
+      {
+        "id": "F_power",
+        "bbox_pt": [
+          386.0,
+          328.0,
+          512.0,
+          391.0
+        ]
+      },
+      {
+        "id": "F_hydrogen",
+        "bbox_pt": [
+          386.0,
+          247.0,
+          512.0,
+          301.0
+        ]
+      },
+      {
+        "id": "I",
+        "bbox_pt": [
+          386.0,
+          66.0,
+          512.0,
+          160.0
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      {
+        "id": "row-2",
+        "panels": [
+          "A_battery_power",
+          "B_battery_power",
+          "C_battery_power"
+        ]
+      },
+      {
+        "id": "row-3",
+        "panels": [
+          "A_battery_energy",
+          "B_battery_energy",
+          "C_battery_energy"
+        ]
+      },
+      {
+        "id": "row-4",
+        "panels": [
+          "A_h2_capacity",
+          "B_h2_capacity",
+          "C_h2_capacity"
+        ]
+      },
+      {
+        "id": "row-5",
+        "panels": [
+          "D_power",
+          "E_power",
+          "F_power"
+        ]
+      },
+      {
+        "id": "row-6",
+        "panels": [
+          "D_hydrogen",
+          "E_hydrogen",
+          "F_hydrogen"
+        ]
+      },
+      {
+        "id": "row-7",
+        "panels": [
+          "G",
+          "H",
+          "I"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "A",
+          "A_battery_power",
+          "A_battery_energy",
+          "A_h2_capacity",
+          "D_power",
+          "D_hydrogen",
+          "G"
+        ]
+      },
+      {
+        "id": "column-2",
+        "panels": [
+          "B",
+          "B_battery_power",
+          "B_battery_energy",
+          "B_h2_capacity",
+          "E_power",
+          "E_hydrogen",
+          "H"
+        ]
+      },
+      {
+        "id": "column-3",
+        "panels": [
+          "C",
+          "C_battery_power",
+          "C_battery_energy",
+          "C_h2_capacity",
+          "F_power",
+          "F_hydrogen",
+          "I"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "A",
+          "A_battery_power",
+          "A_battery_energy",
+          "A_h2_capacity",
+          "D_power",
+          "D_hydrogen",
+          "G",
+          "B",
+          "B_battery_power",
+          "B_battery_energy",
+          "B_h2_capacity",
+          "E_power",
+          "E_hydrogen",
+          "H",
+          "C",
+          "C_battery_power",
+          "C_battery_energy",
+          "C_h2_capacity",
+          "F_power",
+          "F_hydrogen",
+          "I"
+        ],
+        "checks": [
+          "vertical-gutter"
+        ],
+        "reason": "Different evidence sections reserve space for headings and annual metrics; the two aligned operating traces have a smaller internal gap. Every column uses identical vertical coordinates."
+      }
+    ]
+  },
+  "findings": []
+}

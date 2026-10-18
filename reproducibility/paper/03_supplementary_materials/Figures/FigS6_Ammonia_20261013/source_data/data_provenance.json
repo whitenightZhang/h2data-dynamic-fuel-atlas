@@ -1,0 +1,6 @@
+{
+  "calculation_directory": "D:\\OneDrive\\00PhD\\Chapter3_paper\\One_Earth_Submission_Package_20260913\\10_revision_analysis\\representative_unified_charge_20261017",
+  "battery_charge_penalty_USD_kWh": 0.002,
+  "shared_baseline_with_sensitivity": true,
+  "other_model_settings": "Original representative and sensitivity model constraints retained."
+}

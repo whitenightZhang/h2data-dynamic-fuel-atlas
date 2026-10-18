@@ -1,0 +1,32 @@
+{
+  "protected_source_hashes_unchanged": true,
+  "checks": [
+    {
+      "site": "W",
+      "hours": 168,
+      "source_fields_match": true,
+      "electricity_balance_max_abs_kW": 3.066350400422293e-07,
+      "max_hydrogen_balance_slack_kg_h": -1.7550222489203567e-08,
+      "maximum_RE_percent_EL_capacity": 236.12750340039196,
+      "maximum_electrolyzer_percent_rated": 100.00000147532695
+    },
+    {
+      "site": "H",
+      "hours": 168,
+      "source_fields_match": true,
+      "electricity_balance_max_abs_kW": 4.455277793351344e-07,
+      "max_hydrogen_balance_slack_kg_h": 5.494619708952542e-06,
+      "maximum_RE_percent_EL_capacity": 201.42141847721533,
+      "maximum_electrolyzer_percent_rated": 100.00000134446468
+    },
+    {
+      "site": "S",
+      "hours": 168,
+      "source_fields_match": true,
+      "electricity_balance_max_abs_kW": 1.2195231947842444e-05,
+      "max_hydrogen_balance_slack_kg_h": 5.075561854800403e-05,
+      "maximum_RE_percent_EL_capacity": 229.33345903014663,
+      "maximum_electrolyzer_percent_rated": 100.00004828302716
+    }
+  ]
+}

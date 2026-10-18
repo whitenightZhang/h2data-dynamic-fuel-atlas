@@ -1,0 +1,24 @@
+{
+  "observed_on": "2026-10-18",
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "executable": "E:\\Program\\anaconda\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2",
+    "seaborn": "0.12.2",
+    "scikit-learn": "1.7.2",
+    "geopandas": "1.0.1",
+    "shapely": "2.0.6",
+    "pyproj": "3.7.0",
+    "cartopy": "0.24.1",
+    "PyMuPDF": "1.27.2.3",
+    "gurobipy": "11.0.3"
+  },
+  "scope": "Observed packaging runtime; not a claim that every original global run used these versions.",
+  "archived_solver_version": "11.0.3 (from representative run logs)",
+  "model_settings_location": "paper/10_revision_analysis/representative_unified_charge_20261017/*_models.py; runs/*/solver.json",
+  "original_random_settings": "Preserved in code/source_notebooks/3. Unsupervised .ipynb and current figure scripts; no clustering re-executed."
+}

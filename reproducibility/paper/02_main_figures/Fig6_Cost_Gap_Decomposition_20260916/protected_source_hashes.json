@@ -1,0 +1,8 @@
+{
+  "site_summary.csv": "d1be3138c3bb1eb49aca902e8e02900439a91aa4daaec34d46d70c2958ee8114",
+  "cost_decomposition.csv": "af089ed4997d5918ae871130383cd4f95aafcf33eb7d66e0f9dd16fe0226b0e3",
+  "hourly_W.csv": "4b358f5d8f76a2f1b108a58509d308dafe19973b74646a3e91fbee4a5092475d",
+  "hourly_H.csv": "b67e5e8cab3258541f621eb465e35fd4100b55a9bc81bec48f9c208e104b70d8",
+  "hourly_S.csv": "f6a05892ca4a09c3fc69a9540068f90f1611ce1cd7c92e6f86d8ec2813a2e405",
+  "parameters.json": "101e31f480b8cb79408aef3c1861f519c07275b7c27fb3404fa41d0a15351c6b"
+}

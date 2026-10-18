@@ -1,137 +1,39 @@
 # H2DATA Dynamic Fuel Atlas
 
-This repository contains the code and static web atlas for an 8760-hour
-assessment of renewable hydrogen-derived fuels. It supports renewable hydrogen,
-green ammonia, e-methanol, and e-SAF cost and underestimation analysis.
+Data and code for **Annual-average assessments overstate off-grid renewable fuel competitiveness**.
 
-## Repository Structure
+The [interactive atlas](https://whitenightzhang.github.io/h2data-dynamic-fuel-atlas/) contains the current 2030, 2035 and 2050 paired-cost results for hydrogen, green ammonia, e-methanol and e-SAF. The 2035 median annual-average cost biases are 26.2%, 19.0%, 17.1% and 14.8%, respectively.
 
-```text
-.
-├── src/h2data/                 # Optimization and static-screening code
-├── scripts/                    # Data-preparation utilities
-├── docs/                       # GitHub Pages static website
-├── docs/data/                  # Processed web-ready JSON extracts
-├── data/                       # Raw-data notes and optional local inputs
-├── examples/                   # Example command lines
-├── CODE_AVAILABILITY.md        # Scope of released code and data
-├── CITATION.cff                # Citation metadata
-├── environment.yml             # Conda environment
-├── requirements.txt            # Pip requirements
-└── pyproject.toml              # Editable package metadata
+## Contents
+
+- `src/h2data/`: public optimization and annual-average screening code.
+- `docs/`: live atlas and current web-ready JSONs.
+- `reproducibility/`: current paired costs, potential weights, figure/table source maps, run-model exports, 54 representative cases and nine weather-year cases.
+- `CITATION.cff`: title, authors and fixed-version citation metadata.
+
+The actual model version for a recorded calculation is identified by its saved binding and source-file hash. The companion archive distinguishes historical run exports from the maintained public model functions.
+
+## Minimal inspection
+
+Install numpy and pandas, then run:
+
+```console
+python reproducibility/scripts/check_paper_statistics.py
+python reproducibility/examples/representative_case.py
 ```
 
-## Installation
+The default example checks a stored 8760-hour system. An optional new solve requires Gurobi and a valid license; see [reproduction instructions](reproducibility/docs/REPRODUCE.md). Full global raw weather and geospatial datasets are obtained from their original providers, not bundled here.
 
-Create an environment:
+## Local atlas
 
-```powershell
-conda env create -f environment.yml
-conda activate h2data
-python -m pip install -e .
+```console
+python -m http.server 8000 --directory docs --bind 127.0.0.1
 ```
 
-Or install with pip:
+Open http://127.0.0.1:8000. To regenerate current atlas data, run `python reproducibility/scripts/rebuild_web_atlas.py`.
 
-```powershell
-python -m pip install -r requirements.txt
-python -m pip install -e .
-```
+## Version and citation
 
-The 8760-hour optimization functions require Gurobi and a valid Gurobi license.
+Use the fixed [v1.0.0 release](https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas/releases/tag/v1.0.0) for this manuscript snapshot. This release is identified by its GitHub tag and target commit; no DOI archive is requested for this version.
 
-## Main Code Components
-
-- `h2_optimizer.py`: 8760-hour renewable hydrogen system optimization.
-- `am_optimizer.py`: 8760-hour green ammonia system optimization.
-- `me_optimizer.py`: 8760-hour e-methanol system optimization.
-- `ftl_optimizer.py`: 8760-hour Fischer-Tropsch/e-SAF system optimization.
-- `calculate_h2_chunk_static_lcoe.py`: static annual-average hydrogen screening
-  by longitude chunk.
-- `calculate_static_downstream_from_h2.py`: static downstream screening for
-  ammonia, methanol, and FTL/e-SAF from precomputed hydrogen results.
-
-## Static Screening Examples
-
-```powershell
-python -m h2data.calculate_h2_chunk_static_lcoe `
-  --input-dir D:/path/to/input_data `
-  --output-dir D:/path/to/static_h2_output `
-  --chunks 0-23 `
-  --scenario 2050 `
-  --workers 4
-```
-
-```powershell
-python -m h2data.calculate_static_downstream_from_h2 `
-  --input-dir D:/path/to/static_h2_output `
-  --output-dir D:/path/to/static_downstream_output `
-  --scenarios auto `
-  --products ammonia,methanol,ftl `
-  --chunks 0-23 `
-  --workers 4
-```
-
-## Web Atlas
-
-The `docs/` folder is ready for GitHub Pages.
-
-Local preview:
-
-```powershell
-python -m http.server 8765 --directory docs
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8765/
-```
-
-For GitHub Pages, set:
-
-- Source: deploy from a branch
-- Branch: `main`
-- Folder: `/docs`
-
-No build step is required.
-
-## Regenerating Web Data
-
-The committed `docs/data/` files are compact processed extracts for the website.
-To rebuild them from processed CSV tables:
-
-```powershell
-python scripts/prepare_web_data.py `
-  --hydrogen-bias-csv D:/path/to/hydrogen_static_vs_8760_cost_bias_points.csv `
-  --product-node-csv D:/path/to/Figure5_downstream_archetype_node_data.csv `
-  --world-topojson D:/path/to/world-110m.json `
-  --output-dir docs/data
-```
-
-The web data schema is:
-
-```text
-lat, lon, cost_8760, absolute_underestimate, underestimation_pct, region
-```
-
-## Scenario Names
-
-Use year-based scenario names in commands and output files:
-
-```text
-2030, 2035, 2050
-```
-
-For example, `--scenario 2050` writes files such as
-`hydrogen_results_0_2050.csv`.
-
-## Data Policy
-
-Large raw meteorological files, geospatial inputs, and intermediate optimization
-outputs are not committed to this repository. See `data/README.md` and
-`CODE_AVAILABILITY.md` for details.
-
-## License
-
-This repository is released under the MIT License.
+See [data fields](reproducibility/docs/DATA_DICTIONARY.md), [figure sources](reproducibility/FIGURE_SOURCE_MAP.csv), [table sources](reproducibility/TABLE_SOURCE_MAP.csv), [version provenance](reproducibility/docs/VERSION_PROVENANCE.md) and [code availability](CODE_AVAILABILITY.md). Code and author-generated processed outputs retain the existing MIT license; third-party assets retain their providers' terms.

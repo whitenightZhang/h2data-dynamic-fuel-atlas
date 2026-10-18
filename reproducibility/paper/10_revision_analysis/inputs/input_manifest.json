@@ -1,0 +1,145 @@
+{
+  "product": "methanol",
+  "nodes": [
+    {
+      "node_id": "lat17.5_lon18.25",
+      "latitude": 17.5,
+      "longitude": 18.25,
+      "region": 11,
+      "macro_region": "Africa&Middle East",
+      "selection": "previous shared-CF diagnostic representatives; not an unbiased regional sample",
+      "sample_id": "legacy_three_shared_cf_diagnostic",
+      "weather_year": 2023,
+      "technology_year": 2035,
+      "cf_source": "E:\\Workspace\\average_2023_segment_60.nc",
+      "cf_source_bytes": 4548085637,
+      "wind_cf_sha256": "ed1d042a9be4ab6524bab927ab83706e204aeb007aa2e89c6dfb5689118bf56c",
+      "pv_cf_sha256": "a5775f335054274b96945f8300c181ddb574089a8341526467bbd4529234c808",
+      "timestamps_sha256": "b9d1cff4c0efae6c801ef4d86722c9b6bfc68cbcf3f7e02bb50aadb59948fcad",
+      "cf_slice_sha256_only": true,
+      "shared_cf_max_absolute_difference": 1.1102230246251565e-16,
+      "params_file": "methanol_2035_global_parameters.json",
+      "currency_base_year": null,
+      "currency_status": "USD as reported; common price base not yet verified",
+      "allocated_water_m3_per_year": null,
+      "resource_claim_status": "wind/pv caps extracted; common basin water constraint not yet bound",
+      "wind_cap_kw": 2196543.4551239014,
+      "pv_cap_kw": 45537586.2121582,
+      "wind_cost": 992.0,
+      "pv_cost": 411.0,
+      "legacy_output_rows": [
+        {
+          "latitude": 17.5,
+          "longitude": 18.25,
+          "wind_cost": 992.0,
+          "pv_cost": 411.0,
+          "total_methanol_production_kg": 10000.001780853236,
+          "levelized_methanol_cost_per_ton": 605.5085177036514
+        }
+      ]
+    },
+    {
+      "node_id": "lat37.5_lon34.75",
+      "latitude": 37.5,
+      "longitude": 34.75,
+      "region": 23,
+      "macro_region": "Europe",
+      "selection": "previous shared-CF diagnostic representatives; not an unbiased regional sample",
+      "sample_id": "legacy_three_shared_cf_diagnostic",
+      "weather_year": 2023,
+      "technology_year": 2035,
+      "cf_source": "E:\\Workspace\\average_2023_segment_120.nc",
+      "cf_source_bytes": 4548085637,
+      "wind_cf_sha256": "f408cb0e5a3deb3ab25d38cc56356ffdafc4db5edd8abaf8bedfba30e7283ad3",
+      "pv_cf_sha256": "bb5455d68bf67d864dab727d4b396b63fa3d948cb26c49c7b05c998a7a390383",
+      "timestamps_sha256": "b9d1cff4c0efae6c801ef4d86722c9b6bfc68cbcf3f7e02bb50aadb59948fcad",
+      "cf_slice_sha256_only": true,
+      "shared_cf_max_absolute_difference": 9.974659986866641e-17,
+      "params_file": "methanol_2035_global_parameters.json",
+      "currency_base_year": null,
+      "currency_status": "USD as reported; common price base not yet verified",
+      "allocated_water_m3_per_year": null,
+      "resource_claim_status": "wind/pv caps extracted; common basin water constraint not yet bound",
+      "wind_cap_kw": 156803.6675453186,
+      "pv_cap_kw": 1785513.6394500732,
+      "wind_cost": 1141.0,
+      "pv_cost": 240.0,
+      "legacy_output_rows": [
+        {
+          "latitude": 37.5,
+          "longitude": 34.75,
+          "wind_cost": 1141.0,
+          "pv_cost": 240.0,
+          "total_methanol_production_kg": 10000.002341469384,
+          "levelized_methanol_cost_per_ton": 646.1747136391208
+        }
+      ]
+    },
+    {
+      "node_id": "lat61.5_lon-99.75",
+      "latitude": 61.5,
+      "longitude": -99.75,
+      "region": 2,
+      "macro_region": "North America",
+      "selection": "previous shared-CF diagnostic representatives; not an unbiased regional sample",
+      "sample_id": "legacy_three_shared_cf_diagnostic",
+      "weather_year": 2023,
+      "technology_year": 2035,
+      "cf_source": "E:\\Workspace\\average_2023_segment_1020.nc",
+      "cf_source_bytes": 4548085637,
+      "wind_cf_sha256": "0bfb9700715ac02bc98b332d5c13fab9d77a626fb05908ceb513a349f8ab7646",
+      "pv_cf_sha256": "ef705cd05ba983ec8b8e89cccf2f0b57e58b79145d23039f53f81c88156191d5",
+      "timestamps_sha256": "b9d1cff4c0efae6c801ef4d86722c9b6bfc68cbcf3f7e02bb50aadb59948fcad",
+      "cf_slice_sha256_only": true,
+      "shared_cf_max_absolute_difference": 1.1102230246251565e-16,
+      "params_file": "methanol_2035_global_parameters.json",
+      "currency_base_year": null,
+      "currency_status": "USD as reported; common price base not yet verified",
+      "allocated_water_m3_per_year": null,
+      "resource_claim_status": "wind/pv caps extracted; common basin water constraint not yet bound",
+      "wind_cap_kw": 610920.3696250916,
+      "pv_cap_kw": 3487824.9168395996,
+      "wind_cost": 992.0,
+      "pv_cost": 362.0,
+      "legacy_output_rows": [
+        {
+          "latitude": 61.5,
+          "longitude": -99.75,
+          "wind_cost": 992.0,
+          "pv_cost": 362.0,
+          "total_methanol_production_kg": 10000.00111936016,
+          "levelized_methanol_cost_per_ton": 736.0890529331853
+        }
+      ]
+    }
+  ],
+  "parameter_source": {
+    "path": "E:\\Workspace\\optimize_Global_methanol_2035_chunk_dynamic_port.py",
+    "sha256": "f9e7397fed9be815679d4f9847d3e748336b10ef4e2843e47ac914b5b7493e1f",
+    "lines": [
+      155,
+      207
+    ],
+    "execution": "AST literal extraction only; no tunnel or upstream batch executed"
+  },
+  "shared_cf_source": {
+    "path": "D:\\OneDrive\\POTSED\\00 Figures\\Fig3.9_3.20_运行图\\Input\\median_points_cf_timeseries_RegionalRE_LowAE.csv",
+    "sha256": "e80310382c9b590dd9239656c143ea2842f5093723a782b8bb1b5c5d3188dd64"
+  },
+  "regional_cost_source": {
+    "path": "D:\\OneDrive\\POTSED\\DataOutput\\RegionalCost.csv",
+    "sha256": "ee0ce75e8fe4bdcc4a5f40a8bc49073a995309200c0a1c263ed802d1f71489c3"
+  },
+  "resource_sources": [
+    {
+      "path": "E:\\Workspace\\CP_wind_025d_GW.nc",
+      "sha256": "2b56d927691d653963027f35b12faef39514e8b80319bbaeef6af061691a01dc"
+    },
+    {
+      "path": "E:\\Workspace\\CP_pv_025d_GW.nc",
+      "sha256": "75cc99c1d0c94b262222df9098ab06eba87d0f63782d6096faefdfc85500efd0"
+    }
+  ],
+  "baseline_results_source": "D:\\OneDrive\\POTSED\\DataOutput\\Used_output\\combined_RegionRE_LowAE_AddSteam_methanol_results.csv",
+  "baseline_result_rows_used_only": true
+}

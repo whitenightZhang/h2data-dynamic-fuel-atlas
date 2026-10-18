@@ -1,0 +1,41 @@
+[
+  {
+    "site": "W",
+    "start_hour": 2856,
+    "end_hour_exclusive": 3024,
+    "power_balance_max_abs_kW": 5.024013463741972e-10,
+    "curtailment_percent_RE": 12.869732156985947,
+    "minimum_net_RE_after_charging_and_curtailment_kW": 0.14036841483874335,
+    "minimum_H2_balance_residual_kg_h": -4.812732157244426e-11,
+    "positive_H2_balance_slack_kg": 0.0,
+    "H2_balance_slack_excluded_from_direct_supply": true,
+    "battery_discharge_share_of_week_electric_load_percent": 0.7953608756917389,
+    "H2_discharge_share_of_week_synthesis_H2_demand_percent": 9.56296952499438
+  },
+  {
+    "site": "H",
+    "start_hour": 2856,
+    "end_hour_exclusive": 3024,
+    "power_balance_max_abs_kW": 1.8537962384425224e-07,
+    "curtailment_percent_RE": 6.620488600894049,
+    "minimum_net_RE_after_charging_and_curtailment_kW": -2.7076579569573767e-06,
+    "minimum_H2_balance_residual_kg_h": -5.8505509964446034e-08,
+    "positive_H2_balance_slack_kg": 0.0,
+    "H2_balance_slack_excluded_from_direct_supply": true,
+    "battery_discharge_share_of_week_electric_load_percent": 3.7400513529808546,
+    "H2_discharge_share_of_week_synthesis_H2_demand_percent": 10.071563101268529
+  },
+  {
+    "site": "S",
+    "start_hour": 2856,
+    "end_hour_exclusive": 3024,
+    "power_balance_max_abs_kW": 3.027834355672837e-06,
+    "curtailment_percent_RE": 21.867639806425277,
+    "minimum_net_RE_after_charging_and_curtailment_kW": -6.9168365635086104e-06,
+    "minimum_H2_balance_residual_kg_h": -2.569667207154335e-07,
+    "positive_H2_balance_slack_kg": 3.7230332453064285e-07,
+    "H2_balance_slack_excluded_from_direct_supply": true,
+    "battery_discharge_share_of_week_electric_load_percent": 7.705384736356168,
+    "H2_discharge_share_of_week_synthesis_H2_demand_percent": 43.32855523892961
+  }
+]

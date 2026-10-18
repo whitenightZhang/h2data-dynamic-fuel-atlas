@@ -1,0 +1,16 @@
+{
+  "wind_capacity": 25.635666999774056,
+  "pv_capacity": 7.920683483384984,
+  "battery_energy_capacity": 1.7942860376807301,
+  "battery_storage_capacity": 8.543565306268391,
+  "electrolyzer_capacity_AE": 0.10552087799204958,
+  "electrolyzer_capacity_PEM": 18.16266647562617,
+  "methanol_synthesis_capacity": 1.4275596544560658,
+  "heat_pump_capacity": 1.9985767356726623,
+  "thermal_storage_capacity": 0.41596187961172015,
+  "methanol_storage_capacity": 132.3453067706129,
+  "hydrogen_storage_capacity": 5.525027460210898,
+  "dac_capacity": 1.9985774539557033,
+  "co2_compressor_capacity": 1.1778957681495595e-05,
+  "co2_storage_capacity": 0.0007497617978591889
+}

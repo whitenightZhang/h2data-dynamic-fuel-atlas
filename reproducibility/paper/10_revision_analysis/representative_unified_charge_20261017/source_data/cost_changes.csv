@@ -1,0 +1,217 @@
+product,site,node,kind,profile,component,base_USD_t,value_USD_t,change_USD_t
+methanol,W,methanol_North America_cluster0,param,Base,Battery,14.204354003497416,14.204354003497416,0.0
+methanol,W,methanol_North America_cluster0,param,Base,H2 storage,26.797845179909444,26.797845179909444,0.0
+methanol,W,methanol_North America_cluster0,param,Base,Electrolyzers,102.562539926161,102.562539926161,0.0
+methanol,W,methanol_North America_cluster0,param,Base,Other system,592.52441694028,592.52441694028,0.0
+methanol,W,methanol_North America_cluster0,param,HighPEM,Battery,14.204354003497416,39.81651194871405,25.612157945216637
+methanol,W,methanol_North America_cluster0,param,HighPEM,H2 storage,26.797845179909444,22.757731815258712,-4.040113364650733
+methanol,W,methanol_North America_cluster0,param,HighPEM,Electrolyzers,102.562539926161,98.48150622258423,-4.0810337035767645
+methanol,W,methanol_North America_cluster0,param,HighPEM,Other system,592.52441694028,600.8014321629279,8.277015222647833
+methanol,W,methanol_North America_cluster0,param,HighBat,Battery,14.204354003497416,15.824086818655013,1.6197328151575974
+methanol,W,methanol_North America_cluster0,param,HighBat,H2 storage,26.797845179909444,26.89701087453791,0.09916569462846425
+methanol,W,methanol_North America_cluster0,param,HighBat,Electrolyzers,102.562539926161,102.76512709681838,0.20258717065738097
+methanol,W,methanol_North America_cluster0,param,HighBat,Other system,592.52441694028,592.7409694462341,0.2165525059540414
+methanol,W,methanol_North America_cluster0,param,LowBat,Battery,14.204354003497416,13.657464357387466,-0.5468896461099497
+methanol,W,methanol_North America_cluster0,param,LowBat,H2 storage,26.797845179909444,26.483003007578382,-0.31484217233106193
+methanol,W,methanol_North America_cluster0,param,LowBat,Electrolyzers,102.562539926161,102.28667098658937,-0.2758689395716232
+methanol,W,methanol_North America_cluster0,param,LowBat,Other system,592.52441694028,592.4533808971888,-0.07103604309122602
+methanol,W,methanol_North America_cluster0,flex,HighFlex,Battery,14.204354003497416,11.548537545997643,-2.655816457499773
+methanol,W,methanol_North America_cluster0,flex,HighFlex,H2 storage,26.797845179909444,22.576818743443738,-4.221026436465706
+methanol,W,methanol_North America_cluster0,flex,HighFlex,Electrolyzers,102.562539926161,97.49995013203731,-5.0625897941236815
+methanol,W,methanol_North America_cluster0,flex,HighFlex,Other system,592.52441694028,597.5681980568725,5.043781116592413
+methanol,W,methanol_North America_cluster0,flex,LowFlex,Battery,14.204354003497416,26.457579409711283,12.253225406213867
+methanol,W,methanol_North America_cluster0,flex,LowFlex,H2 storage,26.797845179909444,61.14316069649478,34.34531551658534
+methanol,W,methanol_North America_cluster0,flex,LowFlex,Electrolyzers,102.562539926161,104.58802334775041,2.0254834215894135
+methanol,W,methanol_North America_cluster0,flex,LowFlex,Other system,592.52441694028,574.4737683001581,-18.05064864012195
+methanol,H,methanol_Africa&Middle East_cluster1,param,Base,Battery,31.918235281248002,31.918235281248002,0.0
+methanol,H,methanol_Africa&Middle East_cluster1,param,Base,H2 storage,7.0871469778530765,7.0871469778530765,0.0
+methanol,H,methanol_Africa&Middle East_cluster1,param,Base,Electrolyzers,69.31776632175288,69.31776632175288,0.0
+methanol,H,methanol_Africa&Middle East_cluster1,param,Base,Other system,497.1855743824142,497.1855743824142,0.0
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighPEM,Battery,31.918235281248002,48.14283959417143,16.224604312923425
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighPEM,H2 storage,7.0871469778530765,6.528272997647632,-0.5588739802054441
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighPEM,Electrolyzers,69.31776632175288,51.53900705122148,-17.778759270531403
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighPEM,Other system,497.1855743824142,502.014215618991,4.8286412365768
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighBat,Battery,31.918235281248002,24.43027679741321,-7.487958483834792
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighBat,H2 storage,7.0871469778530765,7.1936999938857955,0.10655301603271905
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighBat,Electrolyzers,69.31776632175288,78.32658657852849,9.008820256775607
+methanol,H,methanol_Africa&Middle East_cluster1,param,HighBat,Other system,497.1855743824142,500.48339072982935,3.2978163474151643
+methanol,H,methanol_Africa&Middle East_cluster1,param,LowBat,Battery,31.918235281248002,35.25688466872342,3.338649387475421
+methanol,H,methanol_Africa&Middle East_cluster1,param,LowBat,H2 storage,7.0871469778530765,7.0135813873151,-0.07356559053797618
+methanol,H,methanol_Africa&Middle East_cluster1,param,LowBat,Electrolyzers,69.31776632175288,63.59248363397392,-5.725282687778964
+methanol,H,methanol_Africa&Middle East_cluster1,param,LowBat,Other system,497.1855743824142,495.7154597669801,-1.4701146154341131
+methanol,H,methanol_Africa&Middle East_cluster1,flex,HighFlex,Battery,31.918235281248002,22.751086541173503,-9.167148740074499
+methanol,H,methanol_Africa&Middle East_cluster1,flex,HighFlex,H2 storage,7.0871469778530765,3.0077040737431497,-4.079442904109927
+methanol,H,methanol_Africa&Middle East_cluster1,flex,HighFlex,Electrolyzers,69.31776632175288,68.79169345316292,-0.5260728685899636
+methanol,H,methanol_Africa&Middle East_cluster1,flex,HighFlex,Other system,497.1855743824142,505.1609277096813,7.975353327267101
+methanol,H,methanol_Africa&Middle East_cluster1,flex,LowFlex,Battery,31.918235281248002,47.060816895489545,15.142581614241543
+methanol,H,methanol_Africa&Middle East_cluster1,flex,LowFlex,H2 storage,7.0871469778530765,11.756546432897666,4.66939945504459
+methanol,H,methanol_Africa&Middle East_cluster1,flex,LowFlex,Electrolyzers,69.31776632175288,70.80868507214278,1.4909187503898949
+methanol,H,methanol_Africa&Middle East_cluster1,flex,LowFlex,Other system,497.1855743824142,481.842122580156,-15.343451802258187
+methanol,S,methanol_Europe_cluster2,param,Base,Battery,69.87518533175447,69.87518533175447,0.0
+methanol,S,methanol_Europe_cluster2,param,Base,H2 storage,15.804506242687001,15.804506242687001,0.0
+methanol,S,methanol_Europe_cluster2,param,Base,Electrolyzers,123.92539679807494,123.92539679807494,0.0
+methanol,S,methanol_Europe_cluster2,param,Base,Other system,436.5681754603072,436.5681754603072,0.0
+methanol,S,methanol_Europe_cluster2,param,HighPEM,Battery,69.87518533175447,122.30953490295352,52.43434957119905
+methanol,S,methanol_Europe_cluster2,param,HighPEM,H2 storage,15.804506242687001,11.837728487258246,-3.9667777554287547
+methanol,S,methanol_Europe_cluster2,param,HighPEM,Electrolyzers,123.92539679807494,73.31535708720143,-50.61003971087351
+methanol,S,methanol_Europe_cluster2,param,HighPEM,Other system,436.5681754603072,447.7058853018852,11.137709841577987
+methanol,S,methanol_Europe_cluster2,param,HighBat,Battery,69.87518533175447,69.60020503672598,-0.27498029502848453
+methanol,S,methanol_Europe_cluster2,param,HighBat,H2 storage,15.804506242687001,16.385099204396138,0.5805929617091365
+methanol,S,methanol_Europe_cluster2,param,HighBat,Electrolyzers,123.92539679807494,132.66466259848954,8.7392658004146
+methanol,S,methanol_Europe_cluster2,param,HighBat,Other system,436.5681754603072,437.1598883419399,0.5917128816327022
+methanol,S,methanol_Europe_cluster2,param,LowBat,Battery,69.87518533175447,69.60735289136989,-0.26783244038458065
+methanol,S,methanol_Europe_cluster2,param,LowBat,H2 storage,15.804506242687001,15.365968742984588,-0.43853749970241296
+methanol,S,methanol_Europe_cluster2,param,LowBat,Electrolyzers,123.92539679807494,118.36588838251738,-5.559508415557559
+methanol,S,methanol_Europe_cluster2,param,LowBat,Other system,436.5681754603072,436.82525009968805,0.2570746393808463
+methanol,S,methanol_Europe_cluster2,flex,HighFlex,Battery,69.87518533175447,76.2498229919778,6.374637660223328
+methanol,S,methanol_Europe_cluster2,flex,HighFlex,H2 storage,15.804506242687001,15.204479290020224,-0.6000269526667772
+methanol,S,methanol_Europe_cluster2,flex,HighFlex,Electrolyzers,123.92539679807494,113.61414152708855,-10.311255270986393
+methanol,S,methanol_Europe_cluster2,flex,HighFlex,Other system,436.5681754603072,437.7616835398683,1.1935080795610702
+methanol,S,methanol_Europe_cluster2,flex,LowFlex,Battery,69.87518533175447,59.231636918422595,-10.643548413331871
+methanol,S,methanol_Europe_cluster2,flex,LowFlex,H2 storage,15.804506242687001,48.104024340013524,32.299518097326526
+methanol,S,methanol_Europe_cluster2,flex,LowFlex,Electrolyzers,123.92539679807494,139.4204230965347,15.495026298459763
+methanol,S,methanol_Europe_cluster2,flex,LowFlex,Other system,436.5681754603072,442.6271648001975,6.0589893398902746
+ammonia,W,ammonia_North America_cluster0,param,Base,Battery,7.86333327508391,7.86333327508391,0.0
+ammonia,W,ammonia_North America_cluster0,param,Base,H2 storage,16.468830252074067,16.468830252074067,0.0
+ammonia,W,ammonia_North America_cluster0,param,Base,Electrolyzers,92.39096257376967,92.39096257376967,0.0
+ammonia,W,ammonia_North America_cluster0,param,Base,Other system,417.2668756002622,417.2668756002622,0.0
+ammonia,W,ammonia_North America_cluster0,param,HighPEM,Battery,7.86333327508391,24.485659632865257,16.622326357781347
+ammonia,W,ammonia_North America_cluster0,param,HighPEM,H2 storage,16.468830252074067,13.770563160776556,-2.6982670912975113
+ammonia,W,ammonia_North America_cluster0,param,HighPEM,Electrolyzers,92.39096257376967,92.60431628895574,0.2133537151860736
+ammonia,W,ammonia_North America_cluster0,param,HighPEM,Other system,417.2668756002622,425.9515084876948,8.684632887432599
+ammonia,W,ammonia_North America_cluster0,param,HighBat,Battery,7.86333327508391,4.935869571943964,-2.9274637031399466
+ammonia,W,ammonia_North America_cluster0,param,HighBat,H2 storage,16.468830252074067,16.913481067136875,0.4446508150628077
+ammonia,W,ammonia_North America_cluster0,param,HighBat,Electrolyzers,92.39096257376967,96.50169196664183,4.110729392872159
+ammonia,W,ammonia_North America_cluster0,param,HighBat,Other system,417.2668756002622,416.4969899759343,-0.7698856243279124
+ammonia,W,ammonia_North America_cluster0,param,LowBat,Battery,7.86333327508391,7.5544913916136,-0.3088418834703104
+ammonia,W,ammonia_North America_cluster0,param,LowBat,H2 storage,16.468830252074067,16.276057654249392,-0.19277259782467482
+ammonia,W,ammonia_North America_cluster0,param,LowBat,Electrolyzers,92.39096257376967,91.62987130983474,-0.7610912639349294
+ammonia,W,ammonia_North America_cluster0,param,LowBat,Other system,417.2668756002622,417.82716204062183,0.5602864403596186
+ammonia,W,ammonia_North America_cluster0,flex,HighFlex,Battery,7.86333327508391,7.357532498932681,-0.5058007761512293
+ammonia,W,ammonia_North America_cluster0,flex,HighFlex,H2 storage,16.468830252074067,5.610217156112759,-10.858613095961308
+ammonia,W,ammonia_North America_cluster0,flex,HighFlex,Electrolyzers,92.39096257376967,90.1048287156792,-2.2861338580904658
+ammonia,W,ammonia_North America_cluster0,flex,HighFlex,Other system,417.2668756002622,428.07495136857017,10.808075768307958
+ammonia,W,ammonia_North America_cluster0,flex,LowFlex,Battery,7.86333327508391,7.516047922412678,-0.34728535267123206
+ammonia,W,ammonia_North America_cluster0,flex,LowFlex,H2 storage,16.468830252074067,56.787184327586154,40.31835407551209
+ammonia,W,ammonia_North America_cluster0,flex,LowFlex,Electrolyzers,92.39096257376967,96.56131391428416,4.170351340514486
+ammonia,W,ammonia_North America_cluster0,flex,LowFlex,Other system,417.2668756002622,398.3395304253688,-18.92734517489339
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,Base,Battery,17.891924754165817,17.891924754165817,0.0
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,Base,H2 storage,3.3353009609437176,3.3353009609437176,0.0
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,Base,Electrolyzers,65.34592161043324,65.34592161043324,0.0
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,Base,Other system,340.9434935151492,340.9434935151492,0.0
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighPEM,Battery,17.891924754165817,35.10147575025687,17.20955099609105
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighPEM,H2 storage,3.3353009609437176,2.2050971790760814,-1.1302037818676363
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighPEM,Electrolyzers,65.34592161043324,44.13334950177581,-21.212572108657426
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighPEM,Other system,340.9434935151492,349.4968051117051,8.553311596555886
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighBat,Battery,17.891924754165817,10.551607668829842,-7.340317085335975
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighBat,H2 storage,3.3353009609437176,3.9660846429936165,0.6307836820498989
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighBat,Electrolyzers,65.34592161043324,75.59625566482062,10.25033405438738
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,HighBat,Other system,340.9434935151492,341.05186492482767,0.10837140967845471
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,LowBat,Battery,17.891924754165817,21.141837100550386,3.249912346384569
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,LowBat,H2 storage,3.3353009609437176,2.873327027752064,-0.4619739331916537
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,LowBat,Electrolyzers,65.34592161043324,58.80025643452519,-6.545665175908049
+ammonia,H,ammonia_Africa&Middle East_cluster1,param,LowBat,Other system,340.9434935151492,341.80522670531417,0.861733190164955
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,HighFlex,Battery,17.891924754165817,16.278016998693616,-1.6139077554722014
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,HighFlex,H2 storage,3.3353009609437176,0.36485639024989996,-2.9704445706938176
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,HighFlex,Electrolyzers,65.34592161043324,63.07445344618082,-2.2714681642524184
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,HighFlex,Other system,340.9434935151492,346.0986306492808,5.155137134131564
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,LowFlex,Battery,17.891924754165817,33.095357017627066,15.203432263461249
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,LowFlex,H2 storage,3.3353009609437176,10.947338010128854,7.612037049185137
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,LowFlex,Electrolyzers,65.34592161043324,66.70988683265092,1.3639652222176863
+ammonia,H,ammonia_Africa&Middle East_cluster1,flex,LowFlex,Other system,340.9434935151492,328.6047077698408,-12.338785745308428
+ammonia,S,ammonia_Europe_cluster2,param,Base,Battery,39.12513814428251,39.12513814428251,0.0
+ammonia,S,ammonia_Europe_cluster2,param,Base,H2 storage,14.87826832113398,14.87826832113398,0.0
+ammonia,S,ammonia_Europe_cluster2,param,Base,Electrolyzers,121.49586674016113,121.49586674016113,0.0
+ammonia,S,ammonia_Europe_cluster2,param,Base,Other system,286.8882071260723,286.8882071260723,0.0
+ammonia,S,ammonia_Europe_cluster2,param,HighPEM,Battery,39.12513814428251,96.38849544607052,57.26335730178801
+ammonia,S,ammonia_Europe_cluster2,param,HighPEM,H2 storage,14.87826832113398,10.64734795405029,-4.230920367083691
+ammonia,S,ammonia_Europe_cluster2,param,HighPEM,Electrolyzers,121.49586674016113,67.7767439465053,-53.71912279365583
+ammonia,S,ammonia_Europe_cluster2,param,HighPEM,Other system,286.8882071260723,296.3417360327555,9.453528906683175
+ammonia,S,ammonia_Europe_cluster2,param,HighBat,Battery,39.12513814428251,37.69379707006544,-1.431341074217066
+ammonia,S,ammonia_Europe_cluster2,param,HighBat,H2 storage,14.87826832113398,15.508796246175216,0.6305279250412354
+ammonia,S,ammonia_Europe_cluster2,param,HighBat,Electrolyzers,121.49586674016113,131.0051160461182,9.509249305957056
+ammonia,S,ammonia_Europe_cluster2,param,HighBat,Other system,286.8882071260723,285.7863180075457,-1.1018891185266284
+ammonia,S,ammonia_Europe_cluster2,param,LowBat,Battery,39.12513814428251,42.33243549970618,3.2072973554236697
+ammonia,S,ammonia_Europe_cluster2,param,LowBat,H2 storage,14.87826832113398,14.248081606752997,-0.630186714380983
+ammonia,S,ammonia_Europe_cluster2,param,LowBat,Electrolyzers,121.49586674016113,113.79793820118486,-7.697928538976271
+ammonia,S,ammonia_Europe_cluster2,param,LowBat,Other system,286.8882071260723,287.82124834393767,0.933041217865366
+ammonia,S,ammonia_Europe_cluster2,flex,HighFlex,Battery,39.12513814428251,42.25367107245574,3.128532928173229
+ammonia,S,ammonia_Europe_cluster2,flex,HighFlex,H2 storage,14.87826832113398,14.701539965678394,-0.17672835545558563
+ammonia,S,ammonia_Europe_cluster2,flex,HighFlex,Electrolyzers,121.49586674016113,117.8786309392635,-3.6172358008976317
+ammonia,S,ammonia_Europe_cluster2,flex,HighFlex,Other system,286.8882071260723,287.02743141886486,0.1392242927925622
+ammonia,S,ammonia_Europe_cluster2,flex,LowFlex,Battery,39.12513814428251,41.74079359290765,2.615655448625141
+ammonia,S,ammonia_Europe_cluster2,flex,LowFlex,H2 storage,14.87826832113398,44.40954837239121,29.531280051257227
+ammonia,S,ammonia_Europe_cluster2,flex,LowFlex,Electrolyzers,121.49586674016113,117.49491969884724,-4.000947041313893
+ammonia,S,ammonia_Europe_cluster2,flex,LowFlex,Other system,286.8882071260723,297.56932593849905,10.681118812426746
+ftl,W,ftl_North America_cluster0,param,Base,Battery,30.63269742756211,30.63269742756211,0.0
+ftl,W,ftl_North America_cluster0,param,Base,H2 storage,79.97231646011703,79.97231646011703,0.0
+ftl,W,ftl_North America_cluster0,param,Base,Electrolyzers,253.62493264549195,253.62493264549195,0.0
+ftl,W,ftl_North America_cluster0,param,Base,Other system,1545.0996941949181,1545.0996941949181,0.0
+ftl,W,ftl_North America_cluster0,param,HighPEM,Battery,30.63269742756211,85.75897460637245,55.12627717881034
+ftl,W,ftl_North America_cluster0,param,HighPEM,H2 storage,79.97231646011703,70.00553397294365,-9.966782487173376
+ftl,W,ftl_North America_cluster0,param,HighPEM,Electrolyzers,253.62493264549195,251.65281837318165,-1.9721142723103071
+ftl,W,ftl_North America_cluster0,param,HighPEM,Other system,1545.0996941949181,1564.6928416585793,19.593147463661126
+ftl,W,ftl_North America_cluster0,param,HighBat,Battery,30.63269742756211,34.05815136252619,3.4254539349640787
+ftl,W,ftl_North America_cluster0,param,HighBat,H2 storage,79.97231646011703,79.92467170800886,-0.04764475210816954
+ftl,W,ftl_North America_cluster0,param,HighBat,Electrolyzers,253.62493264549195,254.21504899973175,0.5901163542397967
+ftl,W,ftl_North America_cluster0,param,HighBat,Other system,1545.0996941949181,1545.3381659591137,0.23847176419553762
+ftl,W,ftl_North America_cluster0,param,LowBat,Battery,30.63269742756211,28.725192141233915,-1.9075052863281954
+ftl,W,ftl_North America_cluster0,param,LowBat,H2 storage,79.97231646011703,79.9562651673604,-0.016051292756628754
+ftl,W,ftl_North America_cluster0,param,LowBat,Electrolyzers,253.62493264549195,253.24106272697466,-0.38386991851729135
+ftl,W,ftl_North America_cluster0,param,LowBat,Other system,1545.0996941949181,1545.1523589411986,0.052664746280470354
+ftl,W,ftl_North America_cluster0,flex,HighFlex,Battery,30.63269742756211,30.22698680740985,-0.40571062015225934
+ftl,W,ftl_North America_cluster0,flex,HighFlex,H2 storage,79.97231646011703,78.39043479832472,-1.581881661792309
+ftl,W,ftl_North America_cluster0,flex,HighFlex,Electrolyzers,253.62493264549195,246.3233403526889,-7.301592292803065
+ftl,W,ftl_North America_cluster0,flex,HighFlex,Other system,1545.0996941949181,1547.5705306635878,2.4708364686696314
+ftl,W,ftl_North America_cluster0,flex,LowFlex,Battery,30.63269742756211,41.14463223309748,10.511934805535372
+ftl,W,ftl_North America_cluster0,flex,LowFlex,H2 storage,79.97231646011703,151.70619152272954,71.73387506261251
+ftl,W,ftl_North America_cluster0,flex,LowFlex,Electrolyzers,253.62493264549195,268.2589490065312,14.634016361039272
+ftl,W,ftl_North America_cluster0,flex,LowFlex,Other system,1545.0996941949181,1498.5312405439513,-46.56845365096683
+ftl,H,ftl_Africa&Middle East_cluster1,param,Base,Battery,91.52287874848561,91.52287874848561,0.0
+ftl,H,ftl_Africa&Middle East_cluster1,param,Base,H2 storage,21.742357331294006,21.742357331294006,0.0
+ftl,H,ftl_Africa&Middle East_cluster1,param,Base,Electrolyzers,178.99278208469423,178.99278208469423,0.0
+ftl,H,ftl_Africa&Middle East_cluster1,param,Base,Other system,1306.9389066608524,1306.9389066608524,0.0
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighPEM,Battery,91.52287874848561,126.15363760323181,34.630758854746205
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighPEM,H2 storage,21.742357331294006,22.452309120659393,0.7099517893653875
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighPEM,Electrolyzers,178.99278208469423,145.26776251652785,-33.725019568166374
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighPEM,Other system,1306.9389066608524,1310.6199907224664,3.6810840616140013
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighBat,Battery,91.52287874848561,59.81756970782739,-31.70530904065822
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighBat,H2 storage,21.742357331294006,21.6360227557074,-0.10633457558660453
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighBat,Electrolyzers,178.99278208469423,211.6467971535129,32.654015068818666
+ftl,H,ftl_Africa&Middle East_cluster1,param,HighBat,Other system,1306.9389066608524,1321.9246112844967,14.985704623644324
+ftl,H,ftl_Africa&Middle East_cluster1,param,LowBat,Battery,91.52287874848561,100.98201277535878,9.459134026873173
+ftl,H,ftl_Africa&Middle East_cluster1,param,LowBat,H2 storage,21.742357331294006,23.615159494362395,1.872802163068389
+ftl,H,ftl_Africa&Middle East_cluster1,param,LowBat,Electrolyzers,178.99278208469423,168.6711407211056,-10.32164136358864
+ftl,H,ftl_Africa&Middle East_cluster1,param,LowBat,Other system,1306.9389066608524,1293.4059524472018,-13.532954213650555
+ftl,H,ftl_Africa&Middle East_cluster1,flex,HighFlex,Battery,91.52287874848561,81.22395376024902,-10.298924988236593
+ftl,H,ftl_Africa&Middle East_cluster1,flex,HighFlex,H2 storage,21.742357331294006,16.077747977532177,-5.664609353761829
+ftl,H,ftl_Africa&Middle East_cluster1,flex,HighFlex,Electrolyzers,178.99278208469423,177.93548537033686,-1.0572967143573635
+ftl,H,ftl_Africa&Middle East_cluster1,flex,HighFlex,Other system,1306.9389066608524,1317.4377189716984,10.498812310846006
+ftl,H,ftl_Africa&Middle East_cluster1,flex,LowFlex,Battery,91.52287874848561,113.04158142593764,21.518702677452026
+ftl,H,ftl_Africa&Middle East_cluster1,flex,LowFlex,H2 storage,21.742357331294006,27.796092188175344,6.053734856881338
+ftl,H,ftl_Africa&Middle East_cluster1,flex,LowFlex,Electrolyzers,178.99278208469423,181.09578265100512,2.1030005663108966
+ftl,H,ftl_Africa&Middle East_cluster1,flex,LowFlex,Other system,1306.9389066608524,1281.9405725151823,-24.998334145670015
+ftl,S,ftl_Europe_cluster2,param,Base,Battery,147.22425799030646,147.22425799030646,0.0
+ftl,S,ftl_Europe_cluster2,param,Base,H2 storage,40.0088949606684,40.0088949606684,0.0
+ftl,S,ftl_Europe_cluster2,param,Base,Electrolyzers,319.2004700791878,319.2004700791878,0.0
+ftl,S,ftl_Europe_cluster2,param,Base,Other system,1182.590421284965,1182.590421284965,0.0
+ftl,S,ftl_Europe_cluster2,param,HighPEM,Battery,147.22425799030646,286.38715883016454,139.16290083985808
+ftl,S,ftl_Europe_cluster2,param,HighPEM,H2 storage,40.0088949606684,29.918570633211214,-10.090324327457186
+ftl,S,ftl_Europe_cluster2,param,HighPEM,Electrolyzers,319.2004700791878,187.23614902388834,-131.96432105529948
+ftl,S,ftl_Europe_cluster2,param,HighPEM,Other system,1182.590421284965,1208.3922319992098,25.801810714244766
+ftl,S,ftl_Europe_cluster2,param,HighBat,Battery,147.22425799030646,148.56335937036928,1.3391013800628286
+ftl,S,ftl_Europe_cluster2,param,HighBat,H2 storage,40.0088949606684,41.78803773302983,1.779142772361432
+ftl,S,ftl_Europe_cluster2,param,HighBat,Electrolyzers,319.2004700791878,341.2856443742867,22.085174295098852
+ftl,S,ftl_Europe_cluster2,param,HighBat,Other system,1182.590421284965,1180.262525138634,-2.3278961463311134
+ftl,S,ftl_Europe_cluster2,param,LowBat,Battery,147.22425799030646,151.93009324229817,4.705835251991715
+ftl,S,ftl_Europe_cluster2,param,LowBat,H2 storage,40.0088949606684,38.6303440828087,-1.378550877859702
+ftl,S,ftl_Europe_cluster2,param,LowBat,Electrolyzers,319.2004700791878,302.30917111564094,-16.891298963546888
+ftl,S,ftl_Europe_cluster2,param,LowBat,Other system,1182.590421284965,1182.6027409251053,0.012319640140276533
+ftl,S,ftl_Europe_cluster2,flex,HighFlex,Battery,147.22425799030646,155.52557041054968,8.301312420243221
+ftl,S,ftl_Europe_cluster2,flex,HighFlex,H2 storage,40.0088949606684,39.39348220496425,-0.6154127557041491
+ftl,S,ftl_Europe_cluster2,flex,HighFlex,Electrolyzers,319.2004700791878,305.60227144096405,-13.598198638223778
+ftl,S,ftl_Europe_cluster2,flex,HighFlex,Other system,1182.590421284965,1182.9731325697435,0.38271128477845195
+ftl,S,ftl_Europe_cluster2,flex,LowFlex,Battery,147.22425799030646,133.0149178913485,-14.209340098957966
+ftl,S,ftl_Europe_cluster2,flex,LowFlex,H2 storage,40.0088949606684,118.05485532677143,78.04596036610303
+ftl,S,ftl_Europe_cluster2,flex,LowFlex,Electrolyzers,319.2004700791878,340.88595408800944,21.685484008821618
+ftl,S,ftl_Europe_cluster2,flex,LowFlex,Other system,1182.590421284965,1189.1049288294678,6.514507544502749

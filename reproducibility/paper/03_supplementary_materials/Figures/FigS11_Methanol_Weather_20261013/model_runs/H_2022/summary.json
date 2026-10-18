@@ -1,0 +1,31 @@
+{
+  "site": "H",
+  "group": "Wind-solar complementary",
+  "latitude": 17.5,
+  "longitude": 18.25,
+  "weather_year": 2022,
+  "technology_year": 2035,
+  "solver_status": 2,
+  "runtime_s": 34.069000005722046,
+  "annual_average_cost_USD_per_t": 517.906591498936,
+  "selected_RE_source": "wind",
+  "wind_LCOE_USD_per_kWh": 0.020359468394394963,
+  "pv_LCOE_USD_per_kWh": 0.022859912761937683,
+  "annual_average_components_USD_per_year": {
+    "hydrogen": 2688.9994291951007,
+    "process_electricity": 302.8470923666251,
+    "synthesis": 899.4613299277023,
+    "dac": 883.6813065956374,
+    "heat_pump": 236.07675690429517,
+    "sorbent": 168.0
+  },
+  "hourly_cost_USD_per_t": 573.9912498681396,
+  "total_methanol_kg": 10000.002794949576,
+  "constraint_violation": 3.770515627919867e-05,
+  "bound_violation": 0.0,
+  "underestimation_percent": 9.770995356129148,
+  "wind_mean_CF": 0.6150959481719268,
+  "pv_mean_CF": 0.21552132286070347,
+  "wind_cost_USD_per_kW": 992.0,
+  "pv_cost_USD_per_kW": 411.0
+}
