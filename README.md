@@ -24,6 +24,6 @@ The example reads a saved 8760-hour solution. An optional new optimization requi
 
 ## Version and sources
 
-Use the fixed [v1.1.0 release](https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas/releases/tag/v1.1.0) for this representative-example distribution. See [data fields](reproducibility/docs/DATA_DICTIONARY.md), [figure sources](reproducibility/FIGURE_SOURCE_MAP.csv), [version provenance](reproducibility/docs/VERSION_PROVENANCE.md) and [code availability](CODE_AVAILABILITY.md).
+Use the fixed [v1.0.0 release](https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas/releases/tag/v1.0.0) for this representative-example distribution. See [data fields](reproducibility/docs/DATA_DICTIONARY.md), [figure sources](reproducibility/FIGURE_SOURCE_MAP.csv), [version provenance](reproducibility/docs/VERSION_PROVENANCE.md) and [code availability](CODE_AVAILABILITY.md).
 
 Global result maps are accessed through the atlas; the example archive contains representative-site results. Historical global-analysis and plotting source code is retained for use with separately supplied inputs. Raw weather and geospatial products are obtained from their cited providers. Code and author-generated outputs retain the MIT license; third-party inputs retain their providers' terms.

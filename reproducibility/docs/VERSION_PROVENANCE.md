@@ -1,11 +1,11 @@
 # Version provenance
 
-Release v1.1.0, prepared 2026-10-20.
+Release v1.0.0, prepared 2026-10-20.
 
-This version focuses the downloadable data on the three Fig. 6 sites and the related configuration, hourly-operation, equipment/operating sensitivity and weather-year analyses. Retained model exports, case parameters and solution arrays are unchanged from v1.0.0. No new optimization has been run.
+This release provides model code and inputs and saved results for the three Fig. 6 sites, including equipment configurations, hourly operation, equipment/operating sensitivities and weather-year comparisons.
 
-Global paired-cost/potential/classification result tables were removed from the current companion distribution. Global map visualization data remain unchanged for the live atlas; Git export attributes omit those site assets from new source-code archives. The existing v1.0.0 tag and its historical files remain available in Git history.
+Global production-cost and assessment-bias maps are available through the interactive atlas. Source-code archives contain the representative-system examples; website assets in `docs/data/` are excluded from these archives.
 
-Fossil-reference post-processing defaults now use 630 USD/t and 3.90 tCO2/t for ammonia, together with 550/3.10 for e-methanol and 1215/3.15 for e-SAF. Model run bindings and saved renewable-system solutions are not changed by these reference inputs.
+Fossil-reference post-processing inputs use 630 USD/t and 3.90 tCO2/t for ammonia, 550/3.10 for e-methanol and 1215/3.15 for e-SAF. The model parameters and saved renewable-system solutions are unchanged.
 
-The GitHub Release tag and its target commit identify this version. Per-run bindings, `source_provenance.json`, `FILE_MANIFEST.csv` and `checksums.sha256` record the retained source and example files.
+The GitHub Release tag and its target commit identify the fixed version. Per-run bindings, `source_provenance.json`, `FILE_MANIFEST.csv` and `checksums.sha256` record the retained source and example files.

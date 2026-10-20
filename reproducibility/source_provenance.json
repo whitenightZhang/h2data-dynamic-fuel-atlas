@@ -11,7 +11,7 @@
     "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/plot_fig1.py",
     "source_sha256": "1950d9566e1c395b747416df1b782f74568f40e4eb16c4bb5a89337be57b3d91",
     "published_sha256": "5bc46e6c26ae74b5e69e2b34ecc986f327c80c195101f4cddbc70e1d57985439",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/plot_fig2_targets.py",
@@ -39,7 +39,7 @@
     "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/plot_fig5_original_refined.py",
     "source_sha256": "52847ecb0aa486a645c31b0012d83a151b580fa89c7f01a1db45fd16f8b4f8a9",
     "published_sha256": "cbd8225fb7de6b2f4b2360f28e9197e6468a77f6b645930c9067b6c78a415514",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/audit_panel_alignment.py",
@@ -67,7 +67,7 @@
     "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/plot_fig4_bubble_matrix.py",
     "source_sha256": "9341fb520cb7f0bd72f0b6b16b7db9e09f025a2c4bee3026ffbf2c3e82757c94",
     "published_sha256": "1b964859ca7be5c6b20925276b37aaa44ac1e9b4f8efc9c0ada5e6804e1a17b8",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/paper/02_main_figures/Fig6_Cost_Gap_Decomposition_20260916/audit_panel_alignment.py",
@@ -662,7 +662,7 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/calculate_carbon_sensitivity.py",
     "source_sha256": "35245ae0c03ea8cfb2a10092e4c7c3847ec07f50be74e1e1652fc007a12bae41",
     "published_sha256": "de1764187b4afb00436d7b9fe891798da07599fd85c972aaf0b2867babbc4b42",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/plot_s12.py",
@@ -2426,77 +2426,77 @@
     "local_review_source": "code/source_notebooks/0 Data Generation.ipynb",
     "source_sha256": "5278b9b6de804e72ad231135e2d0490891cc0d753db65b11916f696a80f7328f",
     "published_sha256": "3375d4209e5eb01421f9b1231fe8955984c1ff1d34b5d3f59bdd06bc4a4f2aef",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/0 地理信息处理.ipynb",
     "local_review_source": "code/source_notebooks/0 地理信息处理.ipynb",
     "source_sha256": "7f00f2b0c307f0abe20a2c3b6a3a1b563eed9af23f0933466d30f4325721dd81",
     "published_sha256": "41ee7bface5bcca632c68cf757da74b728568213c8af4271fbf1a966f53f94f0",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/00 Code Organize.ipynb",
     "local_review_source": "code/source_notebooks/00 Code Organize.ipynb",
     "source_sha256": "d1de8daefa5a901e3cc0dab1b0e277709be4bb4a4dc761ae644fa02703169233",
     "published_sha256": "d7b97a0f873145e442bc9aad4df0decfc8200d6afe171dae45fce84dc3abafa9",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/00 优化模型代码梳理.ipynb",
     "local_review_source": "code/source_notebooks/00 优化模型代码梳理.ipynb",
     "source_sha256": "52d34e805d2a263d8b489efe722a2bed25211febf1ece7fb539fcf1d3d5e5b50",
     "published_sha256": "b0c65d39e7c217bb96e63ea792478c240ec3e62b5b095321236d793e7a552e20",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/1 Mapping and Conbine.ipynb",
     "local_review_source": "code/source_notebooks/1 Mapping and Conbine.ipynb",
     "source_sha256": "5e28927496aaca7c4e5d9738a04ea0e5ebc8ebd2865b4285e8543ec0a8ebf3d8",
     "published_sha256": "5ffde30001660995250fc42fcf8a71b97dea25d05c020809ac488f683f7004e9",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/3. Unsupervised .ipynb",
     "local_review_source": "code/source_notebooks/3. Unsupervised .ipynb",
     "source_sha256": "cf59ef9f15243fc996f34f7705bb906e7491a163df6726f79168c7fff5119b77",
     "published_sha256": "4a9ec22424e102b7ec639f66d96b79fd036c221910cfdf600e46f22e7ffd0da8",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/3.2 CAPEXUnCentainty.ipynb",
     "local_review_source": "code/source_notebooks/3.2 CAPEXUnCentainty.ipynb",
     "source_sha256": "d7f0a0f1d6712c5f405754483af17d9777de7e84fefbf9c4469ba7986bb21e0f",
     "published_sha256": "dcb446f09fe193595ece200d44ef5c279339ac08d4a9335ff05ad57736781b8b",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/3.3 FlexUnCentainty.ipynb",
     "local_review_source": "code/source_notebooks/3.3 FlexUnCentainty.ipynb",
     "source_sha256": "a51e7663172fcb3017541c769d0e61ced3fefe53d592600ef7d22042c8fead54",
     "published_sha256": "14e6abde3063de2bda7c84e3febf8d6c150b1ec21cfda69cb5d819a75ba7c966",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/4. Potenial Calculation.ipynb",
     "local_review_source": "code/source_notebooks/4. Potenial Calculation.ipynb",
     "source_sha256": "2172ffc8115e83c9127a57bb8c8c5ecfba0843513053fce490af66ba8d84fa52",
     "published_sha256": "1a4cf85c4f87eceb7e214ca8552de0cb044cff657f309a72834b0c70d5afa930",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/Hydrogen.ipynb",
     "local_review_source": "code/source_notebooks/Hydrogen.ipynb",
     "source_sha256": "ee8a584c538ff2ac6cae23dd9f3a6f7a7c74937f81fb7f207f7145436088625c",
     "published_sha256": "553d8deea0b9a50289bd5ab14fd7812aaf421798af1a53b201c6f26f29719e10",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/Wind&solar CF.ipynb",
     "local_review_source": "code/source_notebooks/Wind&solar CF.ipynb",
     "source_sha256": "99c9c8ef86bad2d7786f2238b67c58b3b06697f15fdbb89660904ece248221ef",
     "published_sha256": "239ddf6c6dcbf4decd147f688c2561a53811d73147bd4eb9bb89b440e8368efb",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/code/upstream_5e495888/.gitattributes",
@@ -2685,14 +2685,14 @@
     "local_review_source": "docs/DATA_DICTIONARY.md",
     "source_sha256": "dd282b6339a8924894af3282bd18a7d96977c2b79961987efa9b87bea0a7d945",
     "published_sha256": "becfcd437a87ec1bb103b25af156883ccba20610b044f12d918fed1be6af2472",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/docs/data_sources.bib",
     "local_review_source": "paper/03_supplementary_materials/engineering_refs_v3.bib",
     "source_sha256": "00018a5142ce89f559ee64b12a57886803e76b857b7ae4b6ac93a977340e1267",
     "published_sha256": "88e3cc1af7f11407964bba7d452b2ffe25249a620b6c7d7cb3672432971c2434",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   },
   {
     "path": "reproducibility/scripts/verify_files.py",
@@ -2713,6 +2713,6 @@
     "local_review_source": "SOURCE_WORKFLOW_MAP.csv",
     "source_sha256": "511adb294e582040ff37efafb9bac9c83cfbd07d0174cfda92086e2186bebb95",
     "published_sha256": "50bad6aee0dcf906035491f4f6c192487c7af007173e2ab8db81fec7b252bd5a",
-    "mode": "updated documentation or reference inputs for v1.1.0"
+    "mode": "updated documentation or reference inputs for v1.0.0"
   }
 ]
