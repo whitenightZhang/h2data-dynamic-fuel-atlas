@@ -1,0 +1,4 @@
+site,latitude,longitude,group
+H,17.5,18.25,Wind-solar complementary
+S,37.5,34.75,Solar-cluster
+W,61.5,-99.75,Wind-cluster

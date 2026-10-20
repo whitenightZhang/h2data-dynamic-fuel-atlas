@@ -48,7 +48,7 @@ def rule(x,top,color,dash=False):
 
 panels=[];insets=[];bars=[];curve_checks=[];letters=[]
 for k,(fuel,name,reference) in enumerate(zip(["ammonia","methanol","saf"],
- ["Green ammonia","E-methanol","E-SAF"],[600.,550.,1215.])):
+ ["Green ammonia","E-methanol","E-SAF"],[630.,550.,1215.])):
  head=12.+136*k;top=33.+136*k
  letters.append(txt(L,head,"ABC"[k],fontsize=9,fontweight="bold"))
  txt(L+14,head,name,fontsize=9,fontweight="bold")

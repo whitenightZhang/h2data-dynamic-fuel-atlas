@@ -1,13 +1,13 @@
-# Source data and recorded workflows — v1.0.0
+# Representative-system data and workflows — v1.1.0
 
-Companion data/code for **Annual-average assessments overstate off-grid renewable fuel competitiveness**.
+Companion examples for **Annual-average assessments overstate off-grid renewable fuel competitiveness**.
 
-The archive contains paired annual-average/hourly costs, screened production-potential weights, threshold and carbon-price outputs, figure scripts, 54 recorded representative-system cases and nine weather-year cases. Numerical source files and actual run-model exports are copied unchanged from the 2026-10-18 author-review package. Notebook code is retained; saved notebook outputs are removed from the distribution.
+The data cover the three sites used in Fig. 6 and shared across the derived-fuel pathways. They include equipment configurations, paired annual-average/hourly costs, saved 8760-hour operation, 54 baseline/sensitivity cases and nine e-methanol weather-year cases for 2021, 2022 and 2023. Existing solution files and numerical results are retained unchanged.
 
-Start with `FIGURE_SOURCE_MAP.csv`, `TABLE_SOURCE_MAP.csv`, `SOURCE_WORKFLOW_MAP.csv`, `docs/DATA_DICTIONARY.md` and `docs/REPRODUCE.md`. Original folder numbers can differ from the current paper's figure numbers; use the maps. `docs/data_sources.bib` retains the data and parameter source citations.
+Start with `examples/representative_sites.csv`, `examples/representative_costs.csv`, `FIGURE_SOURCE_MAP.csv`, `docs/DATA_DICTIONARY.md` and `docs/REPRODUCE.md`. The source maps cover the representative-system figures; historical folder numbers can differ from manuscript figure numbers.
 
-The manuscript and SI documents, rendered figures, third-party basemap shapefiles, original global raw data and solver logs remain outside this public distribution. Plotting scripts retain the original asset paths, so reproducing maps or panels based on an original figure PDF requires the corresponding excluded assets. The paired numerical data and verified statistics can be inspected without those assets. Recorded configuration/solution JSON/NPZ files and original model source identify the numerical run versions.
+Global cost and assessment-bias maps are available in the [interactive atlas](https://whitenightzhang.github.io/h2data-dynamic-fuel-atlas/). Complete global paired-cost, production-potential and competitiveness/carbon-price result tables are outside the scope of this example distribution.
 
-`code/upstream_5e495888/` preserves the earlier public-code snapshot; the models bound to actual recorded runs are in `paper/10_revision_analysis/` and the weather archive. The current release does not claim that all historical calculations were executed by one later public-code commit.
+`paper/10_revision_analysis/representative_unified_charge_20261017/runs/` contains the 54 saved fuel/site/scenario solutions. Weather-year inputs and nine model runs are in `paper/03_supplementary_materials/Figures/FigS11_Methanol_Weather_20261013/`. Original run bindings identify the model, parameters and hourly profiles. Figure-level capacity, hourly-dispatch and cost-component tables are retained for Fig. 6 and Supplementary Figs. S6–S11.
 
-The public atlas in the repository's `docs/` directory is generated from these current paired costs. Source input hashes and file-level provenance are recorded in `source_provenance.json`; `FILE_MANIFEST.csv` and `checksums.sha256` identify the delivered files.
+Model and historical analysis source code is retained. The supported inspection example reads the supplied representative data; global processing and original plotting scripts use their documented input and asset paths. `docs/data_sources.bib` contains the data and parameter references.

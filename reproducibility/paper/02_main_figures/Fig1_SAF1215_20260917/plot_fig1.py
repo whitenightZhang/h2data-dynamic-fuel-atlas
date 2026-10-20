@@ -59,7 +59,7 @@ shares = {name: value / len(points) * 100 for name, value in counts.items()}
 assert np.isclose(sum(shares.values()), 100)
 fuels = ["ammonia", "methanol", "saf"]
 titles = ["Green ammonia", "E-methanol", "E-SAF"]
-benchmarks = [600, 550, 1215]
+benchmarks = [630, 550, 1215]
 expected_n = [7614, 7407, 7377]
 years = [2030, 2035, 2050, 9999]
 grids = {}

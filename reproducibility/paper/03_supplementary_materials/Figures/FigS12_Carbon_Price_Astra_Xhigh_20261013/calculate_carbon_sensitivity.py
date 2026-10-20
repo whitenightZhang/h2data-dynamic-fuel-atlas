@@ -10,8 +10,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 SOURCE = ROOT / "15_SAF_reference_1215_20260917/source_data"
 OUTPUT = HERE / "source_data"
-BASELINES = {"ammonia": 600.0, "methanol": 550.0, "saf": 1215.0}
-EMISSIONS = {"ammonia": 3.60, "methanol": 3.10, "saf": 3.15}
+BASELINES = {"ammonia": 630.0, "methanol": 550.0, "saf": 1215.0}
+EMISSIONS = {"ammonia": 3.90, "methanol": 3.10, "saf": 3.15}
 
 
 def main():

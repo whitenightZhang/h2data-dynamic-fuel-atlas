@@ -7,74 +7,11 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/02_main_figures/Fig1_SAF1215_20260917/data_checks.json",
-    "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/data_checks.json",
-    "source_sha256": "3816c79ed4097454e0e8365278a29a0ddff09b015c91901fcee7e1602ee75a7c",
-    "published_sha256": "3816c79ed4097454e0e8365278a29a0ddff09b015c91901fcee7e1602ee75a7c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig1_SAF1215_20260917/Figure_1_Matrix_Refined.alignment.json",
-    "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/Figure_1_Matrix_Refined.alignment.json",
-    "source_sha256": "84de80b242a4f622227641e750dbe1a21e3a47e14597a2b2597ef8623fe8282b",
-    "published_sha256": "84de80b242a4f622227641e750dbe1a21e3a47e14597a2b2597ef8623fe8282b",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/02_main_figures/Fig1_SAF1215_20260917/plot_fig1.py",
     "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/plot_fig1.py",
     "source_sha256": "1950d9566e1c395b747416df1b782f74568f40e4eb16c4bb5a89337be57b3d91",
-    "published_sha256": "1950d9566e1c395b747416df1b782f74568f40e4eb16c4bb5a89337be57b3d91",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig1_SAF1215_20260917/source_data/A_methanol_2035_common_locations.csv",
-    "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/source_data/A_methanol_2035_common_locations.csv",
-    "source_sha256": "c65bbc25b6120fb65e25ab06ed5e897d3e125c46c04f7bb59e738b1a6195f832",
-    "published_sha256": "c65bbc25b6120fb65e25ab06ed5e897d3e125c46c04f7bb59e738b1a6195f832",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig1_SAF1215_20260917/source_data/B_common_locations_all_fuels.csv",
-    "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/source_data/B_common_locations_all_fuels.csv",
-    "source_sha256": "cb86674243e79b3d0b6ee40a0a24f31cb0ec6e1a7f4a992313cbc6d4844ec354",
-    "published_sha256": "cb86674243e79b3d0b6ee40a0a24f31cb0ec6e1a7f4a992313cbc6d4844ec354",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig1_SAF1215_20260917/source_data/B_parity_status_by_scenario.csv",
-    "local_review_source": "paper/02_main_figures/Fig1_SAF1215_20260917/source_data/B_parity_status_by_scenario.csv",
-    "source_sha256": "ca09a4976ae57ee7d3a9d68e266bea0a2b55d2e46f6d36bfa3eebd026b5972ed",
-    "published_sha256": "ca09a4976ae57ee7d3a9d68e266bea0a2b55d2e46f6d36bfa3eebd026b5972ed",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/data_checks.json",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/data_checks.json",
-    "source_sha256": "522ad1d3d657c4995ac8a7a1a94845e6ff966fb9cad1aa6a87768ff460f92696",
-    "published_sha256": "522ad1d3d657c4995ac8a7a1a94845e6ff966fb9cad1aa6a87768ff460f92696",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/DEF_GHI_editable.text.json",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/DEF_GHI_editable.text.json",
-    "source_sha256": "e1735ca97742b3d4c4de910f1fca7e2c0b912dd2abd6e5e4d9893e548c96c503",
-    "published_sha256": "e1735ca97742b3d4c4de910f1fca7e2c0b912dd2abd6e5e4d9893e548c96c503",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/Figure_2_Fixed_Benchmark_Cost_Pairs.collision.json",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/Figure_2_Fixed_Benchmark_Cost_Pairs.collision.json",
-    "source_sha256": "40fa64b4451f2c0823a2c5263abf160614e577120b5f038f2e9f8884a6668730",
-    "published_sha256": "40fa64b4451f2c0823a2c5263abf160614e577120b5f038f2e9f8884a6668730",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/panel_alignment.json",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/panel_alignment.json",
-    "source_sha256": "dab20f111a31d77074a57b2152e9cb3af5f944a9afe920dc4f49040a439f4b33",
-    "published_sha256": "dab20f111a31d77074a57b2152e9cb3af5f944a9afe920dc4f49040a439f4b33",
-    "mode": "byte-identical copy"
+    "published_sha256": "5bc46e6c26ae74b5e69e2b34ecc986f327c80c195101f4cddbc70e1d57985439",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/plot_fig2_targets.py",
@@ -84,94 +21,10 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/plot_fig2_targets.source.json",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/plot_fig2_targets.source.json",
-    "source_sha256": "3d5d09deabf93917d14942745d411b4f2b11417a019919d6a545e7ff2673fbaa",
-    "published_sha256": "3d5d09deabf93917d14942745d411b4f2b11417a019919d6a545e7ff2673fbaa",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/all_regional_cost_medians.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/all_regional_cost_medians.csv",
-    "source_sha256": "39034114c1e96ea422c117302bc40d066ebb1489f59c1edfa69d0692d0abae04",
-    "published_sha256": "39034114c1e96ea422c117302bc40d066ebb1489f59c1edfa69d0692d0abae04",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/fixed_region_cost_pairs.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/fixed_region_cost_pairs.csv",
-    "source_sha256": "dd4f66e9bb5e3971254278fd3176b0380909ace5b082c21e23f5cdd621d9c11f",
-    "published_sha256": "dd4f66e9bb5e3971254278fd3176b0380909ace5b082c21e23f5cdd621d9c11f",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/global_target_classification.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/global_target_classification.csv",
-    "source_sha256": "7de83bcd197b210727608e1a9b02610c7ef9340f84a1510938a3193ca5eac9fe",
-    "published_sha256": "7de83bcd197b210727608e1a9b02610c7ef9340f84a1510938a3193ca5eac9fe",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/H2_paired_costs_all_locations.csv.gz",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/H2_paired_costs_all_locations.csv.gz",
-    "source_sha256": "cb56701596c3898093e2ea6e85b65754fa57cf2ef4639bd1345a50a2e141c2f5",
-    "published_sha256": "cb56701596c3898093e2ea6e85b65754fa57cf2ef4639bd1345a50a2e141c2f5",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/regional_target_classification.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Fixed_Benchmark_Cost_Pairs_20260917/source_data/regional_target_classification.csv",
-    "source_sha256": "4192445699edd62c430cfe1d49c86a7fdac8a2b5200a7ff0cf9834b6774b4ab0",
-    "published_sha256": "4192445699edd62c430cfe1d49c86a7fdac8a2b5200a7ff0cf9834b6774b4ab0",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/audit_panel_alignment.py",
     "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/audit_panel_alignment.py",
     "source_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
     "published_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/G_low_cost_classification.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/G_low_cost_classification.csv",
-    "source_sha256": "16330e2087b0803c0a0eb35aeede3ed677a04ab65c329fda6d70b99b6c0c8a7c",
-    "published_sha256": "16330e2087b0803c0a0eb35aeede3ed677a04ab65c329fda6d70b99b6c0c8a7c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/G_paired_gap_summary.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/G_paired_gap_summary.csv",
-    "source_sha256": "86a1461a39bac72fb312912facac59610ba018382281eeb76b8aff96a0a0ba3e",
-    "published_sha256": "86a1461a39bac72fb312912facac59610ba018382281eeb76b8aff96a0a0ba3e",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/H2_paired_costs_all_locations.csv.gz",
-    "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/H2_paired_costs_all_locations.csv.gz",
-    "source_sha256": "cb56701596c3898093e2ea6e85b65754fa57cf2ef4639bd1345a50a2e141c2f5",
-    "published_sha256": "cb56701596c3898093e2ea6e85b65754fa57cf2ef4639bd1345a50a2e141c2f5",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/H_cost_distribution_summary.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/H_cost_distribution_summary.csv",
-    "source_sha256": "aa231863bc47de50259856aa8935a3ac196540b75f9a1fc5f23af4dc05acd797",
-    "published_sha256": "aa231863bc47de50259856aa8935a3ac196540b75f9a1fc5f23af4dc05acd797",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/I_regional_medians.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/I_regional_medians.csv",
-    "source_sha256": "7197c90c68688a71934e2688c6eb4552b00a051494d485cccfe4555f2681adcf",
-    "published_sha256": "7197c90c68688a71934e2688c6eb4552b00a051494d485cccfe4555f2681adcf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/provenance.json",
-    "local_review_source": "paper/02_main_figures/Fig2_Original_Maps_Revised_GHI_20260914/source_data/provenance.json",
-    "source_sha256": "f2baa57d22eea4afc034f6c178d663ac230a901122c96949a932256c3f859525",
-    "published_sha256": "f2baa57d22eea4afc034f6c178d663ac230a901122c96949a932256c3f859525",
     "mode": "byte-identical copy"
   },
   {
@@ -185,57 +38,8 @@
     "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/plot_fig5_original_refined.py",
     "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/plot_fig5_original_refined.py",
     "source_sha256": "52847ecb0aa486a645c31b0012d83a151b580fa89c7f01a1db45fd16f8b4f8a9",
-    "published_sha256": "52847ecb0aa486a645c31b0012d83a151b580fa89c7f01a1db45fd16f8b4f8a9",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/source_data/co2_correction_provenance.json",
-    "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/source_data/co2_correction_provenance.json",
-    "source_sha256": "1c33bfbc57d99faead69a1540d0031c057eb8427b60d3058a40e82ce2642aa4d",
-    "published_sha256": "1c33bfbc57d99faead69a1540d0031c057eb8427b60d3058a40e82ce2642aa4d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/source_data/cost_ranked_curves.csv.gz",
-    "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/source_data/cost_ranked_curves.csv.gz",
-    "source_sha256": "83b27ff6b0f14179a04d95b3bd908cebb83f9c343145cd49e5a5f4f580c205b7",
-    "published_sha256": "83b27ff6b0f14179a04d95b3bd908cebb83f9c343145cd49e5a5f4f580c205b7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/source_data/original_plot_metadata.json",
-    "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/source_data/original_plot_metadata.json",
-    "source_sha256": "c1f480277acb3040c48cb40e860111ac3d099ff564f86aba8eb94cf65ec2c97d",
-    "published_sha256": "c1f480277acb3040c48cb40e860111ac3d099ff564f86aba8eb94cf65ec2c97d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/source_data/plotted_curve_checks.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/source_data/plotted_curve_checks.csv",
-    "source_sha256": "644d2bf8bb7447e93f42304defa468cdbab03d800b1251c4b54237ed00938fef",
-    "published_sha256": "644d2bf8bb7447e93f42304defa468cdbab03d800b1251c4b54237ed00938fef",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/source_data/plotted_regional_bars.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/source_data/plotted_regional_bars.csv",
-    "source_sha256": "ce53082453e379810a46017c564e0d3c51ac4c0d6730121c4c622333b299473c",
-    "published_sha256": "ce53082453e379810a46017c564e0d3c51ac4c0d6730121c4c622333b299473c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig2_SAF1215_20260917/source_data/region_potential.csv",
-    "local_review_source": "paper/02_main_figures/Fig2_SAF1215_20260917/source_data/region_potential.csv",
-    "source_sha256": "13d8682275ba1736cba3791f1ed72156b3f1d3c5801075fb20e590734adf775b",
-    "published_sha256": "13d8682275ba1736cba3791f1ed72156b3f1d3c5801075fb20e590734adf775b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/advisor_collision_audit.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/advisor_collision_audit.json",
-    "source_sha256": "2d86e860582f51dec3388ced2dba76cc06c5560b4284fdc2dcde89534357af84",
-    "published_sha256": "2d86e860582f51dec3388ced2dba76cc06c5560b4284fdc2dcde89534357af84",
-    "mode": "byte-identical copy"
+    "published_sha256": "cbd8225fb7de6b2f4b2360f28e9197e6468a77f6b645930c9067b6c78a415514",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/audit_panel_alignment.py",
@@ -245,101 +49,10 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/collision_audit.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/collision_audit.json",
-    "source_sha256": "ec819c7db8e18831d0a3a9bac51160bad28d06bb757151146d4529c9d610a202",
-    "published_sha256": "ec819c7db8e18831d0a3a9bac51160bad28d06bb757151146d4529c9d610a202",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/data_checks.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/data_checks.json",
-    "source_sha256": "82c1fc10e5838ccfd2b77bec90c88faa87a1f907a714551b04f70689d0cdb1e8",
-    "published_sha256": "82c1fc10e5838ccfd2b77bec90c88faa87a1f907a714551b04f70689d0cdb1e8",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/export_checks.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/export_checks.json",
-    "source_sha256": "5b861f824a8b6a192cadb61b18cd064a5de44d9b3288ac17b83542e5af091700",
-    "published_sha256": "5b861f824a8b6a192cadb61b18cd064a5de44d9b3288ac17b83542e5af091700",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/Figure_3_RE_Mix_and_Cost_Bias.alignment.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/Figure_3_RE_Mix_and_Cost_Bias.alignment.json",
-    "source_sha256": "673c3efa47e4f54287266c415e9a99e15033e59eaa36c1431d40458c05311ddc",
-    "published_sha256": "673c3efa47e4f54287266c415e9a99e15033e59eaa36c1431d40458c05311ddc",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/Figure_3_RE_Mix_and_Cost_Bias.panel_anchors.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/Figure_3_RE_Mix_and_Cost_Bias.panel_anchors.json",
-    "source_sha256": "9e7daba213b139cf60fab0c0c810964a03fa60a4f9167346fdd367d72949330c",
-    "published_sha256": "9e7daba213b139cf60fab0c0c810964a03fa60a4f9167346fdd367d72949330c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/manifest.sha256.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/manifest.sha256.json",
-    "source_sha256": "edfae8ddb0e4f388bafff676f61a6c5738ff75dd03b7a8796c13335f180280cc",
-    "published_sha256": "edfae8ddb0e4f388bafff676f61a6c5738ff75dd03b7a8796c13335f180280cc",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/plot_fig3.py",
     "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/plot_fig3.py",
     "source_sha256": "54e23bd185fda4603e6abe72e4af5805cd98ca39f9c2f4d63f88ab142bb1917b",
     "published_sha256": "54e23bd185fda4603e6abe72e4af5805cd98ca39f9c2f4d63f88ab142bb1917b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/G_configuration_change_summary.csv",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/G_configuration_change_summary.csv",
-    "source_sha256": "7d74edef2e725f2ba0825b8767878cedbc61a136145eed29d7532403ee2aa6e3",
-    "published_sha256": "7d74edef2e725f2ba0825b8767878cedbc61a136145eed29d7532403ee2aa6e3",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/H_cost_by_adjustment.csv",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/H_cost_by_adjustment.csv",
-    "source_sha256": "e9b3aca4d116c8f332f501cc834f08549beef9a58db3351fa92a045a09c303c8",
-    "published_sha256": "e9b3aca4d116c8f332f501cc834f08549beef9a58db3351fa92a045a09c303c8",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/I_cost_by_PV_share.csv",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/I_cost_by_PV_share.csv",
-    "source_sha256": "5f5e9db1ca4e6584b99b737c94de636649c6c68541362005827f0c980d82b695",
-    "published_sha256": "5f5e9db1ca4e6584b99b737c94de636649c6c68541362005827f0c980d82b695",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/provenance.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/provenance.json",
-    "source_sha256": "204206e5956b9231efdd4e2c8aa94c2bd04fafb2d37975e12a906137bb5f7888",
-    "published_sha256": "204206e5956b9231efdd4e2c8aa94c2bd04fafb2d37975e12a906137bb5f7888",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/RE_mix_all_locations.csv.gz",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/source_data/RE_mix_all_locations.csv.gz",
-    "source_sha256": "b3763891b01b5fa3e3cbadc034e43b6f425ca37b0e9d2144b56d0d9066d0322c",
-    "published_sha256": "b3763891b01b5fa3e3cbadc034e43b6f425ca37b0e9d2144b56d0d9066d0322c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/source_preflight.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/source_preflight.json",
-    "source_sha256": "e7344df1e936282cfd158cfa810ae711a05f762447f93c9ef16daf75278c2a75",
-    "published_sha256": "e7344df1e936282cfd158cfa810ae711a05f762447f93c9ef16daf75278c2a75",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig3_RE_Mix_20260914/text_audit.json",
-    "local_review_source": "paper/02_main_figures/Fig3_RE_Mix_20260914/text_audit.json",
-    "source_sha256": "44908cdaf842923b43338b035c2e65bec784025fb0c46d734d2420307c3ed81c",
-    "published_sha256": "44908cdaf842923b43338b035c2e65bec784025fb0c46d734d2420307c3ed81c",
     "mode": "byte-identical copy"
   },
   {
@@ -353,43 +66,8 @@
     "path": "reproducibility/paper/02_main_figures/Fig5_SAF1215_20260917/plot_fig4_bubble_matrix.py",
     "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/plot_fig4_bubble_matrix.py",
     "source_sha256": "9341fb520cb7f0bd72f0b6b16b7db9e09f025a2c4bee3026ffbf2c3e82757c94",
-    "published_sha256": "9341fb520cb7f0bd72f0b6b16b7db9e09f025a2c4bee3026ffbf2c3e82757c94",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig5_SAF1215_20260917/source_data/co2_correction_provenance.json",
-    "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/source_data/co2_correction_provenance.json",
-    "source_sha256": "1c33bfbc57d99faead69a1540d0031c057eb8427b60d3058a40e82ce2642aa4d",
-    "published_sha256": "1c33bfbc57d99faead69a1540d0031c057eb8427b60d3058a40e82ce2642aa4d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig5_SAF1215_20260917/source_data/matched_costs.csv.gz",
-    "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/source_data/matched_costs.csv.gz",
-    "source_sha256": "c83e6d8f4ac185df4b876ee6cad754855194bc71122866f7b7716e560457ac77",
-    "published_sha256": "c83e6d8f4ac185df4b876ee6cad754855194bc71122866f7b7716e560457ac77",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig5_SAF1215_20260917/source_data/plotted_bubble_matrix.csv",
-    "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/source_data/plotted_bubble_matrix.csv",
-    "source_sha256": "a62443de79b87450f00352c78b27a437f29d795cced07934e0a527240f518232",
-    "published_sha256": "a62443de79b87450f00352c78b27a437f29d795cced07934e0a527240f518232",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig5_SAF1215_20260917/source_data/plotted_distribution_statistics.csv",
-    "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/source_data/plotted_distribution_statistics.csv",
-    "source_sha256": "a375771bf10438b623dc3a03cda809048d9b724b73aa8ddd9e173cc0b84d6078",
-    "published_sha256": "a375771bf10438b623dc3a03cda809048d9b724b73aa8ddd9e173cc0b84d6078",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/02_main_figures/Fig5_SAF1215_20260917/source_data/regional_summary.csv",
-    "local_review_source": "paper/02_main_figures/Fig5_SAF1215_20260917/source_data/regional_summary.csv",
-    "source_sha256": "88b07349fddc174a33548d1af6784eb74f7aabb64820f9d6d34a456f2908788d",
-    "published_sha256": "88b07349fddc174a33548d1af6784eb74f7aabb64820f9d6d34a456f2908788d",
-    "mode": "byte-identical copy"
+    "published_sha256": "1b964859ca7be5c6b20925276b37aaa44ac1e9b4f8efc9c0ada5e6804e1a17b8",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/paper/02_main_figures/Fig6_Cost_Gap_Decomposition_20260916/audit_panel_alignment.py",
@@ -648,132 +326,6 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/provenance.json",
     "source_sha256": "671ef84f814c7c58fe7f1ef4269ed249f4107cadb6eee8293203ac6fb2aca5cf",
     "published_sha256": "671ef84f814c7c58fe7f1ef4269ed249f4107cadb6eee8293203ac6fb2aca5cf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ammonia_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ammonia_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "b372f5221dacc113d67e0f393e443fe16971ef73b0c8901bb9fd249e1faa3005",
-    "published_sha256": "b372f5221dacc113d67e0f393e443fe16971ef73b0c8901bb9fd249e1faa3005",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ammonia_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ammonia_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "7cf2c6ef6da198d27f8adbf0d923b6eaa94d248c13a0cf9040b65e33f35386a7",
-    "published_sha256": "7cf2c6ef6da198d27f8adbf0d923b6eaa94d248c13a0cf9040b65e33f35386a7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ammonia_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ammonia_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "dd75447cd683d9263cb8f062b4e84e4ed6428990eaaf8e80e57518c1242697c9",
-    "published_sha256": "dd75447cd683d9263cb8f062b4e84e4ed6428990eaaf8e80e57518c1242697c9",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ftl_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ftl_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "85d78f74489e84ceed2dc129a823d847476f7cb535760837269aa6e05d6bf95c",
-    "published_sha256": "85d78f74489e84ceed2dc129a823d847476f7cb535760837269aa6e05d6bf95c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ftl_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ftl_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "18c6652432b3484786ed73065a9b6d9f1931f74210db6dfffdda646ae5794d84",
-    "published_sha256": "18c6652432b3484786ed73065a9b6d9f1931f74210db6dfffdda646ae5794d84",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ftl_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/ftl_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "d9de6cc328b78bae0a6a2099d191548452ed3fc695ba508b547c55e5ac86dda7",
-    "published_sha256": "d9de6cc328b78bae0a6a2099d191548452ed3fc695ba508b547c55e5ac86dda7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/methanol_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/methanol_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "9e9dc0a6ae68867f285599fefb0a5ca53a06cebcdf749259569771982aff52bf",
-    "published_sha256": "9e9dc0a6ae68867f285599fefb0a5ca53a06cebcdf749259569771982aff52bf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/methanol_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/methanol_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "865e1165d234cf3b3e60b490fe9c99fa6a0c68db58602c60f09fe3b52aa28838",
-    "published_sha256": "865e1165d234cf3b3e60b490fe9c99fa6a0c68db58602c60f09fe3b52aa28838",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/methanol_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/flex/methanol_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "ca955791cecbe1e12e2810b715f19454bf9bec02365925820872fc8d7f5ddbc8",
-    "published_sha256": "ca955791cecbe1e12e2810b715f19454bf9bec02365925820872fc8d7f5ddbc8",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "published_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "published_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "published_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "published_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "published_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "published_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "published_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "published_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS10_SAF_Sensitivity_20261013/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
-    "published_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
     "mode": "byte-identical copy"
   },
   {
@@ -1109,42 +661,14 @@
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/calculate_carbon_sensitivity.py",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/calculate_carbon_sensitivity.py",
     "source_sha256": "35245ae0c03ea8cfb2a10092e4c7c3847ec07f50be74e1e1652fc007a12bae41",
-    "published_sha256": "35245ae0c03ea8cfb2a10092e4c7c3847ec07f50be74e1e1652fc007a12bae41",
-    "mode": "byte-identical copy"
+    "published_sha256": "de1764187b4afb00436d7b9fe891798da07599fd85c972aaf0b2867babbc4b42",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/plot_s12.py",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/plot_s12.py",
     "source_sha256": "8769ff157900009e222f94a06360f111ba082f2dffadaf9d8c2907b74de3020e",
     "published_sha256": "8769ff157900009e222f94a06360f111ba082f2dffadaf9d8c2907b74de3020e",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/carbon_price_sensitivity_all_years.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/carbon_price_sensitivity_all_years.csv",
-    "source_sha256": "a1ada93dbe28866f26552930f14191b9bbfd6b565e23113b92cfa38eaa87be5b",
-    "published_sha256": "a1ada93dbe28866f26552930f14191b9bbfd6b565e23113b92cfa38eaa87be5b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/carbon_price_sensitivity_plot.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/carbon_price_sensitivity_plot.csv",
-    "source_sha256": "ad850b5d32b1ec23dfe75880645f8685679549400f50c5b2ec05465a92230313",
-    "published_sha256": "ad850b5d32b1ec23dfe75880645f8685679549400f50c5b2ec05465a92230313",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/matched_node_costs.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/matched_node_costs.csv",
-    "source_sha256": "4416c7c2e324be91b1f567e5dfc2478379b39f4d5afe4f54da6369540984f1ce",
-    "published_sha256": "4416c7c2e324be91b1f567e5dfc2478379b39f4d5afe4f54da6369540984f1ce",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/provenance.json",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS12_Carbon_Price_Astra_Xhigh_20261013/source_data/provenance.json",
-    "source_sha256": "26ae2dbfcf14a0717b361b97c2ece76014957f3bfc27bd6fa1a7f8c7bbabd748",
-    "published_sha256": "26ae2dbfcf14a0717b361b97c2ece76014957f3bfc27bd6fa1a7f8c7bbabd748",
     "mode": "byte-identical copy"
   },
   {
@@ -1162,27 +686,6 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS13_Regional_Cost_Bias_20261014/source_data/geographic_groups.json",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS13_Regional_Cost_Bias_20261014/source_data/geographic_groups.json",
-    "source_sha256": "cee9242fe52c9599607f058579cd6d3e5cd73bf4aa9b0861f30161d27cb5c335",
-    "published_sha256": "cee9242fe52c9599607f058579cd6d3e5cd73bf4aa9b0861f30161d27cb5c335",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS13_Regional_Cost_Bias_20261014/source_data/provenance.json",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS13_Regional_Cost_Bias_20261014/source_data/provenance.json",
-    "source_sha256": "bd73fffdb138d8526bc6819c9604b774e0586910484c3458c3e85e2bca2c0f6d",
-    "published_sha256": "bd73fffdb138d8526bc6819c9604b774e0586910484c3458c3e85e2bca2c0f6d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS13_Regional_Cost_Bias_20261014/source_data/regional_values.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS13_Regional_Cost_Bias_20261014/source_data/regional_values.csv",
-    "source_sha256": "9b095630af72c72b60cba89038bdc01bb2195421ca7ea32f6df5dd3594e57696",
-    "published_sha256": "9b095630af72c72b60cba89038bdc01bb2195421ca7ea32f6df5dd3594e57696",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS14_Hydrogen_Benchmark_Redesign_20261014/audit_panel_alignment.py",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS14_Hydrogen_Benchmark_Redesign_20261014/audit_panel_alignment.py",
     "source_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
@@ -1194,13 +697,6 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS14_Hydrogen_Benchmark_Redesign_20261014/plot_s14.py",
     "source_sha256": "3cca57e892426778722813bcbf47caa11bbcb7dd383e8204f323f7da1dd93231",
     "published_sha256": "3cca57e892426778722813bcbf47caa11bbcb7dd383e8204f323f7da1dd93231",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS14_Hydrogen_Benchmark_Redesign_20261014/source_data/benchmark_sensitivity_curve.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS14_Hydrogen_Benchmark_Redesign_20261014/source_data/benchmark_sensitivity_curve.csv",
-    "source_sha256": "3a854751680d563784b05ed4a199d3d91c43f77584c4279996c78f6afc440cca",
-    "published_sha256": "3a854751680d563784b05ed4a199d3d91c43f77584c4279996c78f6afc440cca",
     "mode": "byte-identical copy"
   },
   {
@@ -1218,20 +714,6 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS15_Regional_Hydrogen_Classification_20261014/source_data/region_order.json",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS15_Regional_Hydrogen_Classification_20261014/source_data/region_order.json",
-    "source_sha256": "c4d6221c953b359f06a33c9a9446a6fa1419dbd3c9bc413f41d7436c9bd800eb",
-    "published_sha256": "c4d6221c953b359f06a33c9a9446a6fa1419dbd3c9bc413f41d7436c9bd800eb",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS15_Regional_Hydrogen_Classification_20261014/source_data/regional_classifications.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS15_Regional_Hydrogen_Classification_20261014/source_data/regional_classifications.csv",
-    "source_sha256": "e8ec722c8fc6e25dff160c4d311a1b3e6f9cdbcbe3252603fa7fdff67742e9c6",
-    "published_sha256": "e8ec722c8fc6e25dff160c4d311a1b3e6f9cdbcbe3252603fa7fdff67742e9c6",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/audit_panel_alignment.py",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/audit_panel_alignment.py",
     "source_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
@@ -1243,20 +725,6 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/plot_s16.py",
     "source_sha256": "5a585a4f017d6e5b05b7fcce06e4857be23ac814e88885158224bc30fc7f6c6c",
     "published_sha256": "5a585a4f017d6e5b05b7fcce06e4857be23ac814e88885158224bc30fc7f6c6c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/source_data/global_hydrogen_statistics.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/source_data/global_hydrogen_statistics.csv",
-    "source_sha256": "cf82e79053c9c3d24e818d4034e32e393e8300bc7e2d72a8fa5eba7280e0be3c",
-    "published_sha256": "cf82e79053c9c3d24e818d4034e32e393e8300bc7e2d72a8fa5eba7280e0be3c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/source_data/provenance.json",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS16_Hydrogen_Cost_Underestimation_20261014/source_data/provenance.json",
-    "source_sha256": "c43dc983b423f541741483823921cccb62c52c2557011c0378907aff10d9d26b",
-    "published_sha256": "c43dc983b423f541741483823921cccb62c52c2557011c0378907aff10d9d26b",
     "mode": "byte-identical copy"
   },
   {
@@ -1288,20 +756,6 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS2_Regional_Classification_20261013/source_data/display_region_mapping.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS2_Regional_Classification_20261013/source_data/display_region_mapping.csv",
-    "source_sha256": "c90ff4ddcc5da6d471f1e11b7f394910c4695cc3d016fc389ff149c54d7e869d",
-    "published_sha256": "c90ff4ddcc5da6d471f1e11b7f394910c4695cc3d016fc389ff149c54d7e869d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS2_Regional_Classification_20261013/source_data/RegionMapping_filter.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS2_Regional_Classification_20261013/source_data/RegionMapping_filter.csv",
-    "source_sha256": "5b8f239ec848203f77f60d52aac4c5c1a577acccc0207606904c0897f4c09c6e",
-    "published_sha256": "5b8f239ec848203f77f60d52aac4c5c1a577acccc0207606904c0897f4c09c6e",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/audit_panel_alignment.py",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/audit_panel_alignment.py",
     "source_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
@@ -1313,34 +767,6 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/plot_s3.py",
     "source_sha256": "bd30dadd46506e72e7e417738291af41699d3133bf4935d19b3e9008f85971de",
     "published_sha256": "bd30dadd46506e72e7e417738291af41699d3133bf4935d19b3e9008f85971de",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/display_region_mapping.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/display_region_mapping.csv",
-    "source_sha256": "c90ff4ddcc5da6d471f1e11b7f394910c4695cc3d016fc389ff149c54d7e869d",
-    "published_sha256": "c90ff4ddcc5da6d471f1e11b7f394910c4695cc3d016fc389ff149c54d7e869d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/literature_capex_scenarios.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/literature_capex_scenarios.csv",
-    "source_sha256": "6b8909c18f7b3c81e63fb7ca7b02da515a515630642d6741ca1293c669044bed",
-    "published_sha256": "6b8909c18f7b3c81e63fb7ca7b02da515a515630642d6741ca1293c669044bed",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/literature_percentile_intervals.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/literature_percentile_intervals.csv",
-    "source_sha256": "4938d88756e7666b3d55765cc75b35280202d2bc58afe16cf5acf06a7b572ad3",
-    "published_sha256": "4938d88756e7666b3d55765cc75b35280202d2bc58afe16cf5acf06a7b572ad3",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/regional_capex_inputs.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS3_Regional_CAPEX_20261013/source_data/regional_capex_inputs.csv",
-    "source_sha256": "6021af8c9779824b8c88671c334065141fec8e54c29be91ba14c2ad05929bfae",
-    "published_sha256": "6021af8c9779824b8c88671c334065141fec8e54c29be91ba14c2ad05929bfae",
     "mode": "byte-identical copy"
   },
   {
@@ -1358,31 +784,10 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/ammonia_2035_cluster_assignments.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/ammonia_2035_cluster_assignments.csv",
-    "source_sha256": "a7ec5c13a1671adb834c0ad02d32720d47923c2d16925dd255c442bacbaff255",
-    "published_sha256": "a7ec5c13a1671adb834c0ad02d32720d47923c2d16925dd255c442bacbaff255",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/representative_sites.csv",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/representative_sites.csv",
     "source_sha256": "ea17beea2cf2d4d8966565befcc5bae3b0d584fe8924a44bddb065228be770cf",
     "published_sha256": "ea17beea2cf2d4d8966565befcc5bae3b0d584fe8924a44bddb065228be770cf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/silhouette_scores.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/silhouette_scores.csv",
-    "source_sha256": "823553b0b09a2c6308ac1e9bbb468cb5d835e9009978ffbf9103a69c3d0ffa8d",
-    "published_sha256": "823553b0b09a2c6308ac1e9bbb468cb5d835e9009978ffbf9103a69c3d0ffa8d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/source_manifest.json",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS4_Clusters_20261013/source_data/source_manifest.json",
-    "source_sha256": "8fbd6228520016b3f0566596b98ae0f43d2662dcf47a67966d2f6e3de31349b8",
-    "published_sha256": "8fbd6228520016b3f0566596b98ae0f43d2662dcf47a67966d2f6e3de31349b8",
     "mode": "byte-identical copy"
   },
   {
@@ -1397,27 +802,6 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/plot_s5.py",
     "source_sha256": "042c3d0f89679ac740e30054e11078b0dcd0e5b48d0455bd3cac3a21b66b8d07",
     "published_sha256": "042c3d0f89679ac740e30054e11078b0dcd0e5b48d0455bd3cac3a21b66b8d07",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/source_data/node_data.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/source_data/node_data.csv",
-    "source_sha256": "5674fb2e02be69c006b1bd96eb0879e2fce59197fa38c344d69e238431d27a2d",
-    "published_sha256": "5674fb2e02be69c006b1bd96eb0879e2fce59197fa38c344d69e238431d27a2d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/source_data/plotted_summary_statistics.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/source_data/plotted_summary_statistics.csv",
-    "source_sha256": "2421af4f300f6fae7d21aa8a68507fe8db4cb6fcfbdbf5c7e2c335e18e4cb1b2",
-    "published_sha256": "2421af4f300f6fae7d21aa8a68507fe8db4cb6fcfbdbf5c7e2c335e18e4cb1b2",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/source_data/previous_summary_statistics.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS5_Costs_and_Bias_20261013/source_data/previous_summary_statistics.csv",
-    "source_sha256": "7ae3c0aca1ee097ea298b484639d70998e780913616b8cf723627ac3d1633061",
-    "published_sha256": "7ae3c0aca1ee097ea298b484639d70998e780913616b8cf723627ac3d1633061",
     "mode": "byte-identical copy"
   },
   {
@@ -1883,132 +1267,6 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ammonia_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ammonia_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "b372f5221dacc113d67e0f393e443fe16971ef73b0c8901bb9fd249e1faa3005",
-    "published_sha256": "b372f5221dacc113d67e0f393e443fe16971ef73b0c8901bb9fd249e1faa3005",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ammonia_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ammonia_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "7cf2c6ef6da198d27f8adbf0d923b6eaa94d248c13a0cf9040b65e33f35386a7",
-    "published_sha256": "7cf2c6ef6da198d27f8adbf0d923b6eaa94d248c13a0cf9040b65e33f35386a7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ammonia_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ammonia_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "dd75447cd683d9263cb8f062b4e84e4ed6428990eaaf8e80e57518c1242697c9",
-    "published_sha256": "dd75447cd683d9263cb8f062b4e84e4ed6428990eaaf8e80e57518c1242697c9",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ftl_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ftl_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "85d78f74489e84ceed2dc129a823d847476f7cb535760837269aa6e05d6bf95c",
-    "published_sha256": "85d78f74489e84ceed2dc129a823d847476f7cb535760837269aa6e05d6bf95c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ftl_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ftl_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "18c6652432b3484786ed73065a9b6d9f1931f74210db6dfffdda646ae5794d84",
-    "published_sha256": "18c6652432b3484786ed73065a9b6d9f1931f74210db6dfffdda646ae5794d84",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ftl_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/ftl_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "d9de6cc328b78bae0a6a2099d191548452ed3fc695ba508b547c55e5ac86dda7",
-    "published_sha256": "d9de6cc328b78bae0a6a2099d191548452ed3fc695ba508b547c55e5ac86dda7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/methanol_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/methanol_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "9e9dc0a6ae68867f285599fefb0a5ca53a06cebcdf749259569771982aff52bf",
-    "published_sha256": "9e9dc0a6ae68867f285599fefb0a5ca53a06cebcdf749259569771982aff52bf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/methanol_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/methanol_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "865e1165d234cf3b3e60b490fe9c99fa6a0c68db58602c60f09fe3b52aa28838",
-    "published_sha256": "865e1165d234cf3b3e60b490fe9c99fa6a0c68db58602c60f09fe3b52aa28838",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/methanol_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/flex/methanol_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "ca955791cecbe1e12e2810b715f19454bf9bec02365925820872fc8d7f5ddbc8",
-    "published_sha256": "ca955791cecbe1e12e2810b715f19454bf9bec02365925820872fc8d7f5ddbc8",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "published_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "published_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "published_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "published_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "published_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "published_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "published_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "published_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
-    "published_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/scenario_results.csv",
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS8_Methanol_Sensitivity_20261013/source_data/scenario_results.csv",
     "source_sha256": "7ddc0bb5b766f0c8d9c3c7451f9b11aa7a6e4c7d2f84ff292195545c0e02902e",
@@ -2062,132 +1320,6 @@
     "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/provenance.json",
     "source_sha256": "671ef84f814c7c58fe7f1ef4269ed249f4107cadb6eee8293203ac6fb2aca5cf",
     "published_sha256": "671ef84f814c7c58fe7f1ef4269ed249f4107cadb6eee8293203ac6fb2aca5cf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ammonia_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ammonia_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "b372f5221dacc113d67e0f393e443fe16971ef73b0c8901bb9fd249e1faa3005",
-    "published_sha256": "b372f5221dacc113d67e0f393e443fe16971ef73b0c8901bb9fd249e1faa3005",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ammonia_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ammonia_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "7cf2c6ef6da198d27f8adbf0d923b6eaa94d248c13a0cf9040b65e33f35386a7",
-    "published_sha256": "7cf2c6ef6da198d27f8adbf0d923b6eaa94d248c13a0cf9040b65e33f35386a7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ammonia_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ammonia_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "dd75447cd683d9263cb8f062b4e84e4ed6428990eaaf8e80e57518c1242697c9",
-    "published_sha256": "dd75447cd683d9263cb8f062b4e84e4ed6428990eaaf8e80e57518c1242697c9",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ftl_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ftl_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "85d78f74489e84ceed2dc129a823d847476f7cb535760837269aa6e05d6bf95c",
-    "published_sha256": "85d78f74489e84ceed2dc129a823d847476f7cb535760837269aa6e05d6bf95c",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ftl_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ftl_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "18c6652432b3484786ed73065a9b6d9f1931f74210db6dfffdda646ae5794d84",
-    "published_sha256": "18c6652432b3484786ed73065a9b6d9f1931f74210db6dfffdda646ae5794d84",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ftl_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/ftl_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "d9de6cc328b78bae0a6a2099d191548452ed3fc695ba508b547c55e5ac86dda7",
-    "published_sha256": "d9de6cc328b78bae0a6a2099d191548452ed3fc695ba508b547c55e5ac86dda7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/methanol_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/methanol_Africa&Middle East_cluster1/flex_sensitivity_summary.csv",
-    "source_sha256": "9e9dc0a6ae68867f285599fefb0a5ca53a06cebcdf749259569771982aff52bf",
-    "published_sha256": "9e9dc0a6ae68867f285599fefb0a5ca53a06cebcdf749259569771982aff52bf",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/methanol_Europe_cluster2/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/methanol_Europe_cluster2/flex_sensitivity_summary.csv",
-    "source_sha256": "865e1165d234cf3b3e60b490fe9c99fa6a0c68db58602c60f09fe3b52aa28838",
-    "published_sha256": "865e1165d234cf3b3e60b490fe9c99fa6a0c68db58602c60f09fe3b52aa28838",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/methanol_North America_cluster0/flex_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/flex/methanol_North America_cluster0/flex_sensitivity_summary.csv",
-    "source_sha256": "ca955791cecbe1e12e2810b715f19454bf9bec02365925820872fc8d7f5ddbc8",
-    "published_sha256": "ca955791cecbe1e12e2810b715f19454bf9bec02365925820872fc8d7f5ddbc8",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "published_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "published_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "published_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "published_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "published_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "published_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "published_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "published_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/03_supplementary_materials/Figures/FigS9_Ammonia_Sensitivity_20261013/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
-    "published_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
     "mode": "byte-identical copy"
   },
   {
@@ -3276,31 +2408,10 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/11_co2_boundary_correction_20260915/corrected_static_paths.json",
-    "local_review_source": "paper/11_co2_boundary_correction_20260915/corrected_static_paths.json",
-    "source_sha256": "7021fdd7af341f915dcebf0b881b9f6e3614d4515034f7d7feb855bd2ed39eea",
-    "published_sha256": "7021fdd7af341f915dcebf0b881b9f6e3614d4515034f7d7feb855bd2ed39eea",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/11_co2_boundary_correction_20260915/static_correction_report.json",
-    "local_review_source": "paper/11_co2_boundary_correction_20260915/static_correction_report.json",
-    "source_sha256": "9c525760967b8f752cd7eef70ff3029d7b28112392eb9cf24e6747b75ac4243b",
-    "published_sha256": "9c525760967b8f752cd7eef70ff3029d7b28112392eb9cf24e6747b75ac4243b",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/paper/11_co2_boundary_correction_20260915/update_derived_sources.py",
     "local_review_source": "paper/11_co2_boundary_correction_20260915/update_derived_sources.py",
     "source_sha256": "326bd4bcf4407a3628c4418155238e8e563140cef51783006439837419306dce",
     "published_sha256": "326bd4bcf4407a3628c4418155238e8e563140cef51783006439837419306dce",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/provenance.json",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/provenance.json",
-    "source_sha256": "4cc098591f93c1936411c83210784abb9d40762a759697e21fa71ebe432114b4",
-    "published_sha256": "4cc098591f93c1936411c83210784abb9d40762a759697e21fa71ebe432114b4",
     "mode": "byte-identical copy"
   },
   {
@@ -3311,221 +2422,81 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/carbon_price_equivalence.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/carbon_price_equivalence.csv",
-    "source_sha256": "5ecfd5958b82e050b6093abeb8046a050f8398828d877d19fedb4674faa9f5fd",
-    "published_sha256": "5ecfd5958b82e050b6093abeb8046a050f8398828d877d19fedb4674faa9f5fd",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/common_node_first_observed_year.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/common_node_first_observed_year.csv",
-    "source_sha256": "cb86674243e79b3d0b6ee40a0a24f31cb0ec6e1a7f4a992313cbc6d4844ec354",
-    "published_sha256": "cb86674243e79b3d0b6ee40a0a24f31cb0ec6e1a7f4a992313cbc6d4844ec354",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/crossing_matrix.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/crossing_matrix.csv",
-    "source_sha256": "7aced08c28faaa3a3ce347c5f8b0043e03e60882a8e391a84f306dec572d380a",
-    "published_sha256": "7aced08c28faaa3a3ce347c5f8b0043e03e60882a8e391a84f306dec572d380a",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/global_classification.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/global_classification.csv",
-    "source_sha256": "2e6502ed5c913c86a9b2219376bf49b19a0ff6772e3b0ddf558e0ce8cb41c1ea",
-    "published_sha256": "2e6502ed5c913c86a9b2219376bf49b19a0ff6772e3b0ddf558e0ce8cb41c1ea",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/matched_node_costs.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/matched_node_costs.csv",
-    "source_sha256": "4416c7c2e324be91b1f567e5dfc2478379b39f4d5afe4f54da6369540984f1ce",
-    "published_sha256": "4416c7c2e324be91b1f567e5dfc2478379b39f4d5afe4f54da6369540984f1ce",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/matching_checks.json",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/matching_checks.json",
-    "source_sha256": "4c0edc9c632d98986a4caaa58fe72a064c57c28c599ffe94f3bdba4cd96b38c8",
-    "published_sha256": "4c0edc9c632d98986a4caaa58fe72a064c57c28c599ffe94f3bdba4cd96b38c8",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/regional_classification.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/regional_classification.csv",
-    "source_sha256": "b73f16cdb1e0d864147a0a2094d019cf975e3d8182f3a2f6549ca2150127ab8f",
-    "published_sha256": "b73f16cdb1e0d864147a0a2094d019cf975e3d8182f3a2f6549ca2150127ab8f",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/regional_first_observed.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/regional_first_observed.csv",
-    "source_sha256": "2995facaa5a74716776c59fbee218d0d5bcd5ac810f6867b166dbaac49b09a65",
-    "published_sha256": "2995facaa5a74716776c59fbee218d0d5bcd5ac810f6867b166dbaac49b09a65",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/15_SAF_reference_1215_20260917/source_data/threshold_sensitivity.csv",
-    "local_review_source": "paper/15_SAF_reference_1215_20260917/source_data/threshold_sensitivity.csv",
-    "source_sha256": "dffe5b72cda3a2ba738cbc7223c5bdaad85d8e4ae020d6aaf9104f13ddac6112",
-    "published_sha256": "dffe5b72cda3a2ba738cbc7223c5bdaad85d8e4ae020d6aaf9104f13ddac6112",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/18_results_section3_revision_20260922/configuration_checks.csv",
-    "local_review_source": "paper/18_results_section3_revision_20260922/configuration_checks.csv",
-    "source_sha256": "4f98c1450e78deb569d129a0168c054a7484cb99c5d0d46186994d501e70ef01",
-    "published_sha256": "4f98c1450e78deb569d129a0168c054a7484cb99c5d0d46186994d501e70ef01",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/18_results_section3_revision_20260922/electrolyzer_utilization_source.csv",
-    "local_review_source": "paper/18_results_section3_revision_20260922/electrolyzer_utilization_source.csv",
-    "source_sha256": "f0e3bf0acf5198ccecc26db0393b32b70ce8fbf3f043c8f108932b39915e1827",
-    "published_sha256": "f0e3bf0acf5198ccecc26db0393b32b70ce8fbf3f043c8f108932b39915e1827",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/ammonia_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "published_sha256": "4d68634f074ee92445b1e650c2ab18b5c233b05af0bb81322a1ac68c1148c051",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/ammonia_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "published_sha256": "1827ade78a768afa3f048ec03a7ad693357ff0c41ed607831a24886964dbc917",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/ammonia_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "published_sha256": "d96e49cf3c6b1d813afeb6afed540486a91c2beb9a0002a77a1d8e19a3eb1203",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/ftl_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "published_sha256": "26e0efaff2c4a21722f1834cc1bd9cdfd6f8fc6f8bc491bfc08d9d9b377f81c0",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/ftl_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "published_sha256": "5204813c2ac21679ca066fe1744149494a69cbf690bf0126810efb6a48a38954",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/ftl_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "published_sha256": "f75e868ecfa43b8bc58a07fca42a1f4c44402726c7a9b6ea7dd25d3adbd6aaf7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/methanol_Africa&Middle East_cluster1/param_sensitivity_summary.csv",
-    "source_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "published_sha256": "4652865849a60531aed582f2fdbc02935597f3908afd969d2d71affffca4b84b",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/methanol_Europe_cluster2/param_sensitivity_summary.csv",
-    "source_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "published_sha256": "012fc0e5b8107689368ef15077bff23ef2d5b3ca0c9f9dc21d367aa926e0ea6d",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/paper/22_sensitivity_redesign_20260923/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "local_review_source": "paper/22_sensitivity_redesign_20260923/source_data/raw/param/methanol_North America_cluster0/param_sensitivity_summary.csv",
-    "source_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
-    "published_sha256": "d0a0ca480b296a1cd05f06b5923a47e8b0ac92ca525c510fc0a517bedf560950",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/code/source_notebooks/0 Data Generation.ipynb",
     "local_review_source": "code/source_notebooks/0 Data Generation.ipynb",
     "source_sha256": "5278b9b6de804e72ad231135e2d0490891cc0d753db65b11916f696a80f7328f",
     "published_sha256": "3375d4209e5eb01421f9b1231fe8955984c1ff1d34b5d3f59bdd06bc4a4f2aef",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/0 地理信息处理.ipynb",
     "local_review_source": "code/source_notebooks/0 地理信息处理.ipynb",
     "source_sha256": "7f00f2b0c307f0abe20a2c3b6a3a1b563eed9af23f0933466d30f4325721dd81",
     "published_sha256": "41ee7bface5bcca632c68cf757da74b728568213c8af4271fbf1a966f53f94f0",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/00 Code Organize.ipynb",
     "local_review_source": "code/source_notebooks/00 Code Organize.ipynb",
     "source_sha256": "d1de8daefa5a901e3cc0dab1b0e277709be4bb4a4dc761ae644fa02703169233",
     "published_sha256": "d7b97a0f873145e442bc9aad4df0decfc8200d6afe171dae45fce84dc3abafa9",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/00 优化模型代码梳理.ipynb",
     "local_review_source": "code/source_notebooks/00 优化模型代码梳理.ipynb",
     "source_sha256": "52d34e805d2a263d8b489efe722a2bed25211febf1ece7fb539fcf1d3d5e5b50",
     "published_sha256": "b0c65d39e7c217bb96e63ea792478c240ec3e62b5b095321236d793e7a552e20",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/1 Mapping and Conbine.ipynb",
     "local_review_source": "code/source_notebooks/1 Mapping and Conbine.ipynb",
     "source_sha256": "5e28927496aaca7c4e5d9738a04ea0e5ebc8ebd2865b4285e8543ec0a8ebf3d8",
     "published_sha256": "5ffde30001660995250fc42fcf8a71b97dea25d05c020809ac488f683f7004e9",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/3. Unsupervised .ipynb",
     "local_review_source": "code/source_notebooks/3. Unsupervised .ipynb",
     "source_sha256": "cf59ef9f15243fc996f34f7705bb906e7491a163df6726f79168c7fff5119b77",
     "published_sha256": "4a9ec22424e102b7ec639f66d96b79fd036c221910cfdf600e46f22e7ffd0da8",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/3.2 CAPEXUnCentainty.ipynb",
     "local_review_source": "code/source_notebooks/3.2 CAPEXUnCentainty.ipynb",
     "source_sha256": "d7f0a0f1d6712c5f405754483af17d9777de7e84fefbf9c4469ba7986bb21e0f",
     "published_sha256": "dcb446f09fe193595ece200d44ef5c279339ac08d4a9335ff05ad57736781b8b",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/3.3 FlexUnCentainty.ipynb",
     "local_review_source": "code/source_notebooks/3.3 FlexUnCentainty.ipynb",
     "source_sha256": "a51e7663172fcb3017541c769d0e61ced3fefe53d592600ef7d22042c8fead54",
     "published_sha256": "14e6abde3063de2bda7c84e3febf8d6c150b1ec21cfda69cb5d819a75ba7c966",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/4. Potenial Calculation.ipynb",
     "local_review_source": "code/source_notebooks/4. Potenial Calculation.ipynb",
     "source_sha256": "2172ffc8115e83c9127a57bb8c8c5ecfba0843513053fce490af66ba8d84fa52",
     "published_sha256": "1a4cf85c4f87eceb7e214ca8552de0cb044cff657f309a72834b0c70d5afa930",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/Hydrogen.ipynb",
     "local_review_source": "code/source_notebooks/Hydrogen.ipynb",
     "source_sha256": "ee8a584c538ff2ac6cae23dd9f3a6f7a7c74937f81fb7f207f7145436088625c",
     "published_sha256": "553d8deea0b9a50289bd5ab14fd7812aaf421798af1a53b201c6f26f29719e10",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/source_notebooks/Wind&solar CF.ipynb",
     "local_review_source": "code/source_notebooks/Wind&solar CF.ipynb",
     "source_sha256": "99c9c8ef86bad2d7786f2238b67c58b3b06697f15fdbb89660904ece248221ef",
     "published_sha256": "239ddf6c6dcbf4decd147f688c2561a53811d73147bd4eb9bb89b440e8368efb",
-    "mode": "notebook code retained; saved cell outputs removed for distribution"
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/code/upstream_5e495888/.gitattributes",
@@ -3710,46 +2681,18 @@
     "mode": "byte-identical copy"
   },
   {
-    "path": "reproducibility/verification/paper_statistics.json",
-    "local_review_source": "verification/paper_statistics.json",
-    "source_sha256": "8a4947cba344de80ced979873ff6408d86fe34ec74bd34e132637eee500f2f66",
-    "published_sha256": "8a4947cba344de80ced979873ff6408d86fe34ec74bd34e132637eee500f2f66",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/verification/representative_case.json",
-    "local_review_source": "verification/representative_case.json",
-    "source_sha256": "80d22e434cfa8a82c7e39e69b37f2ebcb60dbf9d0a54f5aa841c78df0fb566f7",
-    "published_sha256": "80d22e434cfa8a82c7e39e69b37f2ebcb60dbf9d0a54f5aa841c78df0fb566f7",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/verification/upstream_snapshot.json",
-    "local_review_source": "verification/upstream_snapshot.json",
-    "source_sha256": "0f17986ce67f33fcfc61a11c7b47b705f85f8e856cec196ab49d28753c5d2f0c",
-    "published_sha256": "0f17986ce67f33fcfc61a11c7b47b705f85f8e856cec196ab49d28753c5d2f0c",
-    "mode": "byte-identical copy"
-  },
-  {
     "path": "reproducibility/docs/DATA_DICTIONARY.md",
     "local_review_source": "docs/DATA_DICTIONARY.md",
     "source_sha256": "dd282b6339a8924894af3282bd18a7d96977c2b79961987efa9b87bea0a7d945",
-    "published_sha256": "dd282b6339a8924894af3282bd18a7d96977c2b79961987efa9b87bea0a7d945",
-    "mode": "byte-identical copy"
+    "published_sha256": "becfcd437a87ec1bb103b25af156883ccba20610b044f12d918fed1be6af2472",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/docs/data_sources.bib",
     "local_review_source": "paper/03_supplementary_materials/engineering_refs_v3.bib",
     "source_sha256": "00018a5142ce89f559ee64b12a57886803e76b857b7ae4b6ac93a977340e1267",
-    "published_sha256": "00018a5142ce89f559ee64b12a57886803e76b857b7ae4b6ac93a977340e1267",
-    "mode": "byte-identical copy"
-  },
-  {
-    "path": "reproducibility/scripts/check_paper_statistics.py",
-    "local_review_source": "scripts/check_paper_statistics.py",
-    "source_sha256": "72a47deed813aaaee9bec5b358b1add2665699a66e18c8e8ffcac5653b40c852",
-    "published_sha256": "72a47deed813aaaee9bec5b358b1add2665699a66e18c8e8ffcac5653b40c852",
-    "mode": "byte-identical copy"
+    "published_sha256": "88e3cc1af7f11407964bba7d452b2ffe25249a620b6c7d7cb3672432971c2434",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   },
   {
     "path": "reproducibility/scripts/verify_files.py",
@@ -3769,7 +2712,7 @@
     "path": "reproducibility/SOURCE_WORKFLOW_MAP.csv",
     "local_review_source": "SOURCE_WORKFLOW_MAP.csv",
     "source_sha256": "511adb294e582040ff37efafb9bac9c83cfbd07d0174cfda92086e2186bebb95",
-    "published_sha256": "511adb294e582040ff37efafb9bac9c83cfbd07d0174cfda92086e2186bebb95",
-    "mode": "byte-identical copy"
+    "published_sha256": "50bad6aee0dcf906035491f4f6c192487c7af007173e2ab8db81fec7b252bd5a",
+    "mode": "updated documentation or reference inputs for v1.1.0"
   }
 ]

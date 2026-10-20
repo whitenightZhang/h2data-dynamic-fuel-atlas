@@ -1,39 +1,29 @@
 # H2DATA Dynamic Fuel Atlas
 
-Data and code for **Annual-average assessments overstate off-grid renewable fuel competitiveness**.
+Code and representative-system examples for **Annual-average assessments overstate off-grid renewable fuel competitiveness**.
 
-The [interactive atlas](https://whitenightzhang.github.io/h2data-dynamic-fuel-atlas/) contains the current 2030, 2035 and 2050 paired-cost results for hydrogen, green ammonia, e-methanol and e-SAF. The 2035 median annual-average cost biases are 26.2%, 19.0%, 17.1% and 14.8%, respectively.
+Explore global hydrogen, green-ammonia, e-methanol and e-SAF cost maps in the [interactive atlas](https://whitenightzhang.github.io/h2data-dynamic-fuel-atlas/). The downloadable examples focus on the three sites used in main-text Fig. 6: wind-cluster, wind–solar complementary and solar-cluster.
 
 ## Contents
 
-- `src/h2data/`: public optimization and annual-average screening code.
-- `docs/`: live atlas and current web-ready JSONs.
-- `reproducibility/`: current paired costs, potential weights, figure/table source maps, run-model exports, 54 representative cases and nine weather-year cases.
-- `CITATION.cff`: title, authors and fixed-version citation metadata.
+- `src/h2data/`: optimization and annual-average assessment functions.
+- `reproducibility/`: model inputs and saved configurations, hourly operation and sensitivity results at the three representative sites, including 54 fuel/site/scenario cases and nine weather-year cases.
+- `docs/`: the live interactive atlas. Its global visualization data in `docs/data/` remain available to the website and are excluded from source-code download archives.
+- `CITATION.cff`: authors and fixed-version citation metadata.
 
-The actual model version for a recorded calculation is identified by its saved binding and source-file hash. The companion archive distinguishes historical run exports from the maintained public model functions.
+## Inspect the representative examples
 
-## Minimal inspection
-
-Install numpy and pandas, then run:
+Install numpy and pandas, then run from the repository root:
 
 ```console
-python reproducibility/scripts/check_paper_statistics.py
+python reproducibility/scripts/verify_files.py
 python reproducibility/examples/representative_case.py
 ```
 
-The default example checks a stored 8760-hour system. An optional new solve requires Gurobi and a valid license; see [reproduction instructions](reproducibility/docs/REPRODUCE.md). Full global raw weather and geospatial datasets are obtained from their original providers, not bundled here.
+The example reads a saved 8760-hour solution. An optional new optimization requires Gurobi and a valid license; see [instructions](reproducibility/docs/REPRODUCE.md). `reproducibility/examples/representative_costs.csv` provides paired costs and fossil-reference classifications for the nine fuel/site baseline combinations.
 
-## Local atlas
+## Version and sources
 
-```console
-python -m http.server 8000 --directory docs --bind 127.0.0.1
-```
+Use the fixed [v1.1.0 release](https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas/releases/tag/v1.1.0) for this representative-example distribution. See [data fields](reproducibility/docs/DATA_DICTIONARY.md), [figure sources](reproducibility/FIGURE_SOURCE_MAP.csv), [version provenance](reproducibility/docs/VERSION_PROVENANCE.md) and [code availability](CODE_AVAILABILITY.md).
 
-Open http://127.0.0.1:8000. To regenerate current atlas data, run `python reproducibility/scripts/rebuild_web_atlas.py`.
-
-## Version and citation
-
-Use the fixed [v1.0.0 release](https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas/releases/tag/v1.0.0) for this manuscript snapshot. This release is identified by its GitHub tag and target commit; no DOI archive is requested for this version.
-
-See [data fields](reproducibility/docs/DATA_DICTIONARY.md), [figure sources](reproducibility/FIGURE_SOURCE_MAP.csv), [table sources](reproducibility/TABLE_SOURCE_MAP.csv), [version provenance](reproducibility/docs/VERSION_PROVENANCE.md) and [code availability](CODE_AVAILABILITY.md). Code and author-generated processed outputs retain the existing MIT license; third-party assets retain their providers' terms.
+Global result maps are accessed through the atlas; the example archive contains representative-site results. Historical global-analysis and plotting source code is retained for use with separately supplied inputs. Raw weather and geospatial products are obtained from their cited providers. Code and author-generated outputs retain the MIT license; third-party inputs retain their providers' terms.

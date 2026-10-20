@@ -11,9 +11,9 @@ authors:
     given-names: Chen Chris
   - family-names: Chen
     given-names: Wenying
-version: "1.0.0"
+version: "1.1.0"
 repository-code: "https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas"
-abstract: "Companion source data, figure scripts and recorded computational workflows for the renewable-fuel assessment."
+abstract: "Model code, representative-system data and recorded computational workflows for the renewable-fuel assessment."
 
 license: "MIT"
-date-released: "2026-10-18"
+date-released: "2026-10-20"

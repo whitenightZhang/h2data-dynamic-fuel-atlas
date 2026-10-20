@@ -1,30 +1,26 @@
-# Running the supplied examples
+# Running the representative examples
 
-From the repository root:
-
-```console
-cd reproducibility
-python scripts/verify_files.py
-python scripts/check_paper_statistics.py
-python examples/representative_case.py
-```
-
-The statistics script checks headline cost/bias medians, the 2 USD/kg classification, equivalent carbon prices, the full archived 0–200 USD/tCO2 carbon-price scan and hydrogen-benchmark scan. The representative example inspects a stored 8760-hour solution and checks its model/CF/solution hashes and annual objective. Both run with numpy and pandas and require no optimization license.
-
-An explicit new optimization requires gurobipy and a Gurobi license:
+From the repository root, install numpy and pandas and run:
 
 ```console
-python examples/representative_case.py --solve --output-dir NEW_REPRESENTATIVE_RUN
+python reproducibility/scripts/verify_files.py
+python reproducibility/examples/representative_case.py
 ```
 
-That optional solve is not part of release preparation. The recorded models contain solver settings; case-specific overrides and solution metadata are in solver.json. The recorded representative logs identified Gurobi 11.0.3. Current observed environment versions are in environment/packaging_runtime.json; they are not a substitute for the original per-run provenance.
+The first command verifies the files in this example distribution. The second inspects a saved 8760-hour e-methanol solution and checks its model/profile/solution hashes and annual objective. It does not run a new optimization or require a solver license.
 
-To regenerate the repository's live atlas data from the included cost tables:
+To regenerate the nine-row paired-cost and classification table from the saved baseline exports:
 
 ```console
-python scripts/rebuild_web_atlas.py
+python reproducibility/scripts/export_representative_costs.py
 ```
 
-This command writes ../docs/data. Serve the repository's docs/ directory locally to view the atlas; its original CDN library dependencies require an internet connection.
+To run a new optimization for that case, install gurobipy and provide a valid Gurobi license:
 
-Original notebooks, plotting and historical full-workflow scripts retain their original local paths. They are source records, not a single portable global-run launcher. Numerical post-processing and the representative example above are the supported minimal entry points. Raw global resource inputs, basemap shapefiles and original rendered map panels are not bundled; their data sources are documented in the accompanying bibliography and notebooks. Table S6 full-load-hour values are provided as recorded group summaries, rather than complete global dispatch arrays.
+```console
+python reproducibility/examples/representative_case.py --solve --output-dir NEW_REPRESENTATIVE_RUN
+```
+
+The output directory must be new. Case bindings and solver settings are retained in the corresponding `solver.json` files. The archive contains 54 fuel/site/scenario cases and nine weather-year cases at the same three sites; see `FIGURE_SOURCE_MAP.csv` for the figure-level exports.
+
+Global production-cost maps are explored through the live atlas linked in the main README. To prepare web JSONs from separately supplied cost tables, see `scripts/prepare_web_data.py` at the repository root. Website visualization data are excluded from source-code archives. Original global-analysis notebooks and plotting sources retain their input paths; use the cited source providers for the global raw resource inputs.

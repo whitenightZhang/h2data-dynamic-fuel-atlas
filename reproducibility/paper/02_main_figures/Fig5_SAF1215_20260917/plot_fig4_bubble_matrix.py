@@ -20,7 +20,7 @@ BASE="Figure_5_SAF1215"
 W,H=528.621765,494.
 PRODS=["Ammonia","Methanol","FTL"];YEARS=[2030,2035,2050]
 NAMES={"Ammonia":"Green ammonia","Methanol":"E-methanol","FTL":"E-SAF"}
-REF={"Ammonia":600,"Methanol":550,"FTL":1215}
+REF={"Ammonia":630,"Methanol":550,"FTL":1215}
 BLUE=np.array(mpl.colors.to_rgb("#286879"))*.75+.25
 ORANGE=np.array(mpl.colors.to_rgb("#CF8A30"))*.75+.25
 REFCOLOR="#7E898E"

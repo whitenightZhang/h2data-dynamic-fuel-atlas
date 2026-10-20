@@ -1,2 +1,3 @@
 docs/data/*.json linguist-generated=true
 docs/data/world-110m.json linguist-generated=true
+docs/data/** export-ignore

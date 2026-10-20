@@ -1,9 +1,9 @@
 # Data and code availability
 
-The repository includes maintained public model functions under src/h2data, the current web atlas, processed paired-cost/potential data and recorded calculation sources under reproducibility. The 22 figure and six table source maps connect current paper numbering to numerical inputs, scripts and per-run records.
+Original optimization and annual-average assessment code is available under `src/h2data/`. The `reproducibility/` directory provides the three representative sites used in Fig. 6, their model/parameter bindings, 54 recorded fuel/site/scenario cases and nine weather-year cases. Figure-source maps cover Fig. 6 and Supplementary Figs. S6–S11.
 
-Representative run models, parameters and solutions are archived separately from the maintained public-code baseline. Fixed-version provenance and verification reports are supplied. The default numerical inspections do not require Gurobi; an explicit new optimization requires Gurobi and a valid license.
+Global production-cost and assessment-bias maps are available through the interactive atlas: https://whitenightzhang.github.io/h2data-dynamic-fuel-atlas/
 
-The complete global raw meteorological/geospatial collections, manuscript/SI files, rendered figure assets and solver logs are not bundled. Raw-source citations and field definitions are supplied in reproducibility/docs and the processing notebooks. Original plotting scripts can require excluded basemap or original-rendering assets. Full-load-hour statistics in Table S6 are supplied as recorded bin summaries.
+The fixed example release is https://github.com/whitenightZhang/h2data-dynamic-fuel-atlas/releases/tag/v1.1.0. Download archives include code and representative-system data. Website visualization assets under `docs/data/` are retained on the public branch for GitHub Pages and excluded from source-code archives.
 
-The release target fixes the code/data snapshot. This version is cited using its GitHub Release link and target commit; no DOI archive is requested.
+The default example inspects a saved solution without an optimization license. New optimization runs require Gurobi and a valid license. Inputs, variable definitions and reproduction instructions are provided in `reproducibility/docs/`. Original global data sources and their license terms are cited there. Historical global-analysis source code uses separately supplied inputs.
